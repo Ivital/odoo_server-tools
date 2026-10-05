@@ -273,7 +273,7 @@ msgstr "Послідовність"
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__smart_search
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_confirm__smart_search
 msgid "Smart Search"
-msgstr ""
+msgstr "Розумний пошук"
 
 #. module: base_exception
 #. odoo-python
