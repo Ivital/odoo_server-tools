@@ -186,3 +186,9 @@ msgstr ""
 "реалізація послідовності не пропускає жодного порядкового номера під час "
 "присвоєння, у послідовності можуть залишатися прогалини, якщо записи "
 "видаляються. Реалізація \"no gap\" повільніша, ніж стандартна."
+
+#. module: base_sequence_option
+#. odoo-python
+#: code:addons/base_sequence_option/models/ir_sequence_option.py:0
+msgid "Multiple optional sequences found for this model!"
+msgstr "Для цієї моделі знайдено кілька необов’язкових послідовностей!"

@@ -153,6 +153,8 @@ msgstr "Назва для відображення"
 msgid ""
 "Do not save backups on your filestore, or you will backup your backups too!"
 msgstr ""
+"Не зберігайте резервні копії у файловому сховищі, інакше ви також "
+"резервуватимете резервні копії!"
 
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form

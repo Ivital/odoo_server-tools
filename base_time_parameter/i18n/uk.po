@@ -184,3 +184,35 @@ msgstr "Версія параметра часу"
 #: model:ir.model.constraint,message:base_time_parameter.constraint_base_time_parameter__unique
 msgid "Two time parameters cannot have the same code."
 msgstr "Два параметри часу не можуть мати однаковий код."
+
+#. module: base_time_parameter
+#. odoo-python
+#: code:addons/base_time_parameter/models/base_time_parameter_version.py:0
+msgid "Error occurred while validating date: %s"
+msgstr "Під час перевірки дати сталася помилка: %s"
+
+#. module: base_time_parameter
+#. odoo-python
+#: code:addons/base_time_parameter/models/base_time_parameter_version.py:0
+msgid "Error occurred while validating float: %s"
+msgstr "Під час перевірки числа з плаваючою комою сталася помилка: %s"
+
+#. module: base_time_parameter
+#. odoo-python
+#: code:addons/base_time_parameter/models/base_time_parameter_version.py:0
+msgid "Error occurred while validating integer: %s"
+msgstr "Під час перевірки цілого числа сталася помилка: %s"
+
+#. module: base_time_parameter
+#. odoo-python
+#: code:addons/base_time_parameter/models/base_time_parameter_version.py:0
+msgid "Error occurred while validating json: %s"
+msgstr "Під час перевірки JSON сталася помилка: %s"
+
+#. module: base_time_parameter
+#. odoo-python
+#: code:addons/base_time_parameter/models/base_time_parameter.py:0
+msgid ""
+"No parameter for model '%(model_name)s', code '%(code)s', date %(date)s"
+msgstr ""
+"Немає параметра для моделі «%(model_name)s», коду «%(code)s», дати %(date)s"

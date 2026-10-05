@@ -299,43 +299,43 @@ msgstr "Назва"
 #. odoo-python
 #: code:addons/database_cleanup/models/purge_menus.py:0
 msgid "No dangling menu entries found"
-msgstr ""
+msgstr "Завислих пунктів меню не знайдено"
 
 #. module: database_cleanup
 #. odoo-python
 #: code:addons/database_cleanup/models/purge_modules.py:0
 msgid "No modules found to purge"
-msgstr ""
+msgstr "Модулів для очищення не знайдено"
 
 #. module: database_cleanup
 #. odoo-python
 #: code:addons/database_cleanup/models/purge_columns.py:0
 msgid "No orphaned columns found"
-msgstr ""
+msgstr "Осиротілих колонок не знайдено"
 
 #. module: database_cleanup
 #. odoo-python
 #: code:addons/database_cleanup/models/purge_data.py:0
 msgid "No orphaned data entries found"
-msgstr ""
+msgstr "Осиротілих записів даних не знайдено"
 
 #. module: database_cleanup
 #. odoo-python
 #: code:addons/database_cleanup/models/purge_fields.py:0
 msgid "No orphaned fields found"
-msgstr ""
+msgstr "Осиротілих полів не знайдено"
 
 #. module: database_cleanup
 #. odoo-python
 #: code:addons/database_cleanup/models/purge_models.py:0
 msgid "No orphaned models found"
-msgstr ""
+msgstr "Осиротілих моделей не знайдено"
 
 #. module: database_cleanup
 #. odoo-python
 #: code:addons/database_cleanup/models/purge_tables.py:0
 msgid "No orphaned tables found"
-msgstr ""
+msgstr "Осиротілих таблиць не знайдено"
 
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.form_purge_wizard
@@ -534,7 +534,7 @@ msgstr "Виберіть рядки"
 #. odoo-python
 #: code:addons/database_cleanup/models/purge_wizard.py:0
 msgid "Select lines to purge"
-msgstr ""
+msgstr "Виберіть рядки для очищення"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line__smart_search

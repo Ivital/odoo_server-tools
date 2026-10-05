@@ -113,3 +113,33 @@ msgstr "День тижня часу"
 #: model:ir.model,name:base_time_window.model_time_window_mixin
 msgid "Time Window"
 msgstr "Часове вікно"
+
+#. module: base_time_window
+#. odoo-python
+#: code:addons/base_time_window/models/time_window_mixin.py:0
+msgid "%(end_time)s must be > %(start_time)s"
+msgstr "%(end_time)s має бути > %(start_time)s"
+
+#. module: base_time_window
+#. odoo-python
+#: code:addons/base_time_window/models/time_window_mixin.py:0
+msgid "%(record_name)s overlaps %(other_name)s"
+msgstr "%(record_name)s перекривається з %(other_name)s"
+
+#. module: base_time_window
+#. odoo-python
+#: code:addons/base_time_window/models/time_window_mixin.py:0
+msgid "At least one time.weekday is required"
+msgstr "Потрібен хоча б один time.weekday"
+
+#. module: base_time_window
+#. odoo-python
+#: code:addons/base_time_window/models/time_window_mixin.py:0
+msgid "Hour should be between 00 and 23"
+msgstr "Година має бути від 00 до 23"
+
+#. module: base_time_window
+#. odoo-python
+#: code:addons/base_time_window/models/time_window_mixin.py:0
+msgid "{days}: From {start} to {end}"
+msgstr "{days}: з {start} до {end}"

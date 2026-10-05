@@ -44,3 +44,15 @@ msgstr ""
 "вимкнути, загорнутим у dict з ключем `disable`. Наприклад: {'disable': "
 "['search', 'do_this']} Щоб вимкнути всі методи, використовуйте `{'disable: "
 "['all']}`"
+
+#. module: rpc_helper
+#. odoo-python
+#: code:addons/rpc_helper/patch.py:0
+msgid "Object %s doesn't exist"
+msgstr "Об’єкт %s не існує"
+
+#. module: rpc_helper
+#. odoo-python
+#: code:addons/rpc_helper/patch.py:0
+msgid "RPC call on %s is not allowed"
+msgstr "Виклик RPC для %s заборонено"

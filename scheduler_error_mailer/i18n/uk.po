@@ -36,3 +36,9 @@ msgid "[DB {{ctx.get('dbname')}}] Scheduler '{{object.name or ''}}' FAILED"
 msgstr ""
 "[БД {{ctx.get('dbname')}}] Планувальник '{{object.name or ''}}' ЗАВЕРШИВСЯ "
 "ПОМИЛКОЮ"
+
+#. module: scheduler_error_mailer
+#. odoo-python
+#: code:addons/scheduler_error_mailer/models/ir_cron.py:0
+msgid "Task failure with UID = %(uid)d."
+msgstr "Помилка завдання з UID = %(uid)d."

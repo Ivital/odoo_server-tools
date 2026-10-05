@@ -80,3 +80,19 @@ msgstr "Модулі для оновлення"
 #: model_terms:ir.ui.view,arch_db:module_auto_update.view_base_module_upgrade
 msgid "Show Modules to Update"
 msgstr "Показувати модулі для оновлення"
+
+#. module: module_auto_update
+#. odoo-python
+#: code:addons/module_auto_update/models/module.py:0
+msgid "Checksum upgrade complete."
+msgstr "Оновлення контрольної суми завершено."
+
+#. module: module_auto_update
+#. odoo-python
+#: code:addons/module_auto_update/models/module.py:0
+msgid ""
+"No checksum change detected in installed modules and all modules installed, "
+"nothing to do."
+msgstr ""
+"Змін контрольної суми у встановлених модулях не виявлено, усі модулі "
+"встановлені — нічого робити."

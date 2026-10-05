@@ -663,3 +663,17 @@ msgid ""
 msgstr ""
 "Технічне поле для встановлення атрибутів (невидимість/обов’язковість, домен "
 "тощо) інших полів, наприклад домен-фільтра"
+
+#. module: autovacuum_message_attachment
+#. odoo-python
+#: code:addons/autovacuum_message_attachment/models/vacuum_rule.py:0
+msgid "Inheriting model cannot be used on rule where type is not attachment"
+msgstr ""
+"Успадковану модель не можна використовувати в правилі, якщо тип не є "
+"вкладенням"
+
+#. module: autovacuum_message_attachment
+#. odoo-python
+#: code:addons/autovacuum_message_attachment/models/vacuum_rule.py:0
+msgid "The Retention Time can't be 0 days"
+msgstr "Час зберігання не може бути 0 днів"

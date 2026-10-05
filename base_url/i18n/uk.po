@@ -154,3 +154,19 @@ msgstr "ID цільового запису в базі даних"
 #: model:ir.model.fields,help:base_url.field_url_url__redirect
 msgid "If tick this url is a redirection to the new url"
 msgstr "Якщо позначено, ця URL-адреса перенаправляє на нову URL-адресу"
+
+#. module: base_url
+#. odoo-python
+#: code:addons/base_url/models/abstract_url.py:0
+msgid ""
+"Url Key already exists in other model\n"
+"- Model name: %(model_name)s\n"
+"- Record ID: %(record_id)s\n"
+"- Url Key: %(url_key)s\n"
+"- Url ID: %(url_id)s"
+msgstr ""
+"Ключ URL уже існує в іншій моделі\n"
+"- Назва моделі: %(model_name)s\n"
+"- ID запису: %(record_id)s\n"
+"- Ключ URL: %(url_key)s\n"
+"- ID URL: %(url_id)s"

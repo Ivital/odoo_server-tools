@@ -18,3 +18,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_cron_exclusion.ir_cron_view_form
 msgid "Mutually Exclusive Scheduled Actions"
 msgstr "Взаємовиключні заплановані дії"
+
+#. module: base_cron_exclusion
+#. odoo-python
+#: code:addons/base_cron_exclusion/models/ir_cron.py:0
+msgid "You can not mutually exclude a scheduled actions with itself."
+msgstr "Запланована дія не може взаємно виключати саму себе."

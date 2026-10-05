@@ -204,3 +204,31 @@ msgid ""
 " field:target"
 msgstr ""
 "Повний шлях до поля, де можна вказати ціль на кроці у форматі field:target"
+
+#. module: jsonifier
+#. odoo-python
+#: code:addons/jsonifier/models/ir_exports_line.py:0
+msgid "Either set a function or a resolver, not both."
+msgstr "Вкажіть або функцію, або резолвер, але не обидва."
+
+#. module: jsonifier
+#. odoo-python
+#: code:addons/jsonifier/models/ir_exports_line.py:0
+msgid "Name and Target must have the same hierarchy depth"
+msgstr "Назва й ціль мають мати однакову глибину ієрархії"
+
+#. module: jsonifier
+#. odoo-python
+#: code:addons/jsonifier/models/ir_exports_line.py:0
+msgid ""
+"The target must reference the same field as in name '%(name)s' not in "
+"'%(name_with_target)s'"
+msgstr ""
+"Ціль має посилатися на те саме поле, що й у назві «%(name)s», а не в "
+"«%(name_with_target)s»"
+
+#. module: jsonifier
+#. odoo-python
+#: code:addons/jsonifier/models/models.py:0
+msgid "Wrong parser configuration for field: `%s`"
+msgstr "Неправильна конфігурація парсера для поля: `%s`"

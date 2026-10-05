@@ -118,6 +118,9 @@ msgid ""
 " %(rule_name)s \n"
 "(%(error)s)"
 msgstr ""
+"Помилка під час обчислення правила exception.rule:\n"
+" %(rule_name)s \n"
+"(%(error)s)"
 
 #. module: base_exception
 #: model:ir.model,name:base_exception.model_base_exception
@@ -237,7 +240,7 @@ msgstr "Метод"
 #. odoo-python
 #: code:addons/base_exception/wizard/base_exception_confirm.py:0
 msgid "Only 1 ID accepted, got %r."
-msgstr ""
+msgstr "Дозволено лише 1 ID, отримано %r."
 
 #. module: base_exception
 #: model:ir.actions.act_window,name:base_exception.action_exception_rule_confirm
@@ -287,7 +290,7 @@ msgstr "Розумний пошук"
 #. odoo-python
 #: code:addons/base_exception/models/base_exception.py:0
 msgid "The exceptions can not be ignored, because some of them are blocking."
-msgstr ""
+msgstr "Винятки не можна ігнорувати, оскільки деякі з них блокувальні."
 
 #. module: base_exception
 #. odoo-python
@@ -296,6 +299,8 @@ msgid ""
 "There is a problem of configuration, python code, domain or method is "
 "missing to match the exception type."
 msgstr ""
+"Проблема конфігурації: для зіставлення типу винятку відсутні код Python, "
+"домен або метод."
 
 #. module: base_exception
 #: model_terms:ir.ui.view,arch_db:base_exception.view_exception_rule_form

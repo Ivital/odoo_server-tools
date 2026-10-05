@@ -497,3 +497,15 @@ msgid ""
 msgstr ""
 "Використовувати Розумний пошук для 'name_search'; це впливатиме на пошук з "
 "інших записів (наприклад, із полів m2o"
+
+#. module: base_name_search_improved
+#. odoo-python
+#: code:addons/base_name_search_improved/models/ir_model.py:0
+msgid "Couldn't eval Name Search Domain (%s)"
+msgstr "Не вдалося обчислити домен пошуку за назвою (%s)"
+
+#. module: base_name_search_improved
+#. odoo-python
+#: code:addons/base_name_search_improved/models/ir_model.py:0
+msgid "Name Search Domain must be a list of tuples"
+msgstr "Домен пошуку за назвою має бути списком кортежів"

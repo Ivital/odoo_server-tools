@@ -510,3 +510,9 @@ msgstr ""
 #: code:addons/attachment_queue/tests/test_models.py:0
 msgid "boom"
 msgstr "вибух"
+
+#. module: attachment_queue
+#. odoo-python
+#: code:addons/attachment_queue/models/attachment_queue.py:0
+msgid "Manually set to done by %(name)s"
+msgstr "Вручну позначено виконаним користувачем %(name)s"

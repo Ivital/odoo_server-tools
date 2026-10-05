@@ -514,3 +514,53 @@ msgstr "Модель, до якої прикріплювати листи"
 msgid "The state messages fetched from this folder should be assigned in Odoo"
 msgstr ""
 "Повідомлення стану, отримані з цієї папки, мають бути призначені в Odoo"
+
+#. module: fetchmail_attach_from_folder
+#. odoo-python
+#: code:addons/fetchmail_attach_from_folder/wizard/attach_mail_manually.py:0
+msgid "Attach emails manually"
+msgstr "Вкладати листи вручну"
+
+#. module: fetchmail_attach_from_folder
+#. odoo-python
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server.py:0
+msgid "Confirm connection first."
+msgstr "Спочатку підтвердьте підключення."
+
+#. module: fetchmail_attach_from_folder
+#. odoo-python
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py:0
+msgid "Could not create archive folder %(folder)s on server %(server)s"
+msgstr "Не вдалося створити архівну папку %(folder)s на сервері %(server)s"
+
+#. module: fetchmail_attach_from_folder
+#. odoo-python
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py:0
+msgid ""
+"Could not fetch %(message_uid)s in folder %(folder)s on server %(server)s"
+msgstr ""
+"Не вдалося отримати %(message_uid)s у папці %(folder)s на сервері %(server)s"
+
+#. module: fetchmail_attach_from_folder
+#. odoo-python
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py:0
+msgid "Could not open folder %(folder)s on server %(server)s"
+msgstr "Не вдалося відкрити папку %(folder)s на сервері %(server)s"
+
+#. module: fetchmail_attach_from_folder
+#. odoo-python
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py:0
+msgid "Could not search folder %(folder)s on server %(server)s"
+msgstr "Не вдалося знайти папку %(folder)s на сервері %(server)s"
+
+#. module: fetchmail_attach_from_folder
+#. odoo-python
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py:0
+msgid "Invalid folder %s!"
+msgstr "Недійсна папка %s!"
+
+#. module: fetchmail_attach_from_folder
+#. odoo-python
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server.py:0
+msgid "Unable to retrieve folders."
+msgstr "Не вдалося отримати папки."

@@ -1031,3 +1031,223 @@ msgstr "Майстер імпорту Excel"
 #: model:ir.model.fields,help:excel_import_export.field_import_xlsx_wizard__attachment_ids
 msgid "You can select multiple files to import."
 msgstr "Для імпорту можна вибрати кілька файлів."
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/common.py:0
+msgid "'%s' sheet not found"
+msgstr "Аркуш '%s' не знайдено"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+msgid "Document must be in %s states"
+msgstr "Документ має бути у станах %s"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+msgid "Document must be in draft state"
+msgstr "Документ має бути в стані чернетки"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_import.py:0
+msgid ""
+"Error deleting data\n"
+"%s"
+msgstr ""
+"Помилка видалення даних\n"
+"%s"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_export.py:0
+msgid ""
+"Error filling data into Excel sheets\n"
+"%s"
+msgstr ""
+"Помилка заповнення даних у аркушах Excel\n"
+"%s"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_import.py:0
+msgid "Error importing data"
+msgstr "Помилка імпорту даних"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+msgid "File \"%(fname)s\" not found in template, %(name)s."
+msgstr "Файл «%(fname)s» не знайдено в шаблоні %(name)s."
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_export.py:0
+msgid ""
+"IllegalCharacterError\n"
+"Some exporting data contain special character\n"
+"%s"
+msgstr ""
+"IllegalCharacterError\n"
+"Деякі експортовані дані містять спеціальний символ\n"
+"%s"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+msgid "Import Excel"
+msgstr "Імпортувати Excel"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_import.py:0
+msgid "Invalid declaration, %s has no valid field type"
+msgstr "Недійсне оголошення: %s не має дійсного типу поля"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_import.py:0
+msgid "Invalid file style, only .xls or .xlsx file allowed"
+msgstr "Неприпустимий тип файлу: дозволено лише .xls або .xlsx"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/common.py:0
+msgid "Invalid style type %s"
+msgstr "Недійсний тип стилю %s"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/common.py:0
+msgid "Invalid value %(value)s for style type %(key)s"
+msgstr "Недійсне значення %(value)s для типу стилю %(key)s"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_export.py:0
+msgid ""
+"Key Error\n"
+"%s"
+msgstr ""
+"Помилка ключа\n"
+"%s"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_import.py:0
+msgid "No data_dict['__IMPORT__'] in template %s"
+msgstr "У шаблоні %s відсутній data_dict['__IMPORT__']"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_template.py:0
+msgid "No file content!"
+msgstr "Немає вмісту файлу!"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_report.py:0
+#: code:addons/excel_import_export/wizard/export_xlsx_wizard.py:0
+msgid "No file in %s"
+msgstr "Немає файлу в %s"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_export.py:0
+msgid "Not enough worksheets"
+msgstr "Недостатньо аркушів"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/ir_report.py:0
+msgid "Only one id is allowed for excel_import_export"
+msgstr "Для excel_import_export дозволено лише один ID"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+msgid "Please select Excel file to import"
+msgstr "Виберіть файл Excel для імпорту"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/common.py:0
+msgid "Position %s is not valid"
+msgstr "Позиція %s недійсна"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_import.py:0
+msgid ""
+"Post import operation error\n"
+"%s"
+msgstr ""
+"Помилка операції після імпорту\n"
+"%s"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_export.py:0
+msgid "Records in %s exceed max records allowed"
+msgstr "Кількість записів у %s перевищує дозволений максимум"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+msgid "Set Templates"
+msgstr "Встановити шаблони"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_export.py:0
+#: code:addons/excel_import_export/models/xlsx_import.py:0
+msgid "Sheet %s not found"
+msgstr "Аркуш %s не знайдено"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/ir_report.py:0
+msgid "Template %(report_name)s on model %(model)s is not unique!"
+msgstr "Шаблон %(report_name)s для моделі %(model)s не є унікальним!"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/common.py:0
+msgid ""
+"Template with CSV Quoting = False, data must not contain the same char as "
+"delimiter -> \"%s\""
+msgstr ""
+"Для шаблону з CSV Quoting = False дані не повинні містити той самий символ, "
+"що й роздільник -> «%s»"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_export.py:0
+#: code:addons/excel_import_export/models/xlsx_import.py:0
+msgid "Template's model mismatch"
+msgstr "Модель шаблону не збігається"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_template.py:0
+msgid "The selected redirect action is not for model %s"
+msgstr "Вибрана дія перенаправлення не призначена для моделі %s"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_import.py:0
+msgid ""
+"The value for the '%(field)s' field is expected to be in cell "
+"%(cell_position)s, but no column exists for that cell in the Excel sheet. "
+"Please check your Excel file."
+msgstr ""
+"Значення поля «%(field)s» очікується в клітинці %(cell_position)s, але в "
+"аркуші Excel немає стовпця для цієї клітинки. Перевірте файл Excel."
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+msgid "This import action is not usable in this document context"
+msgstr "Ця дія імпорту недоступна в контексті цього документа"

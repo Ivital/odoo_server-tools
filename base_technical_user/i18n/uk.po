@@ -32,3 +32,9 @@ msgstr "Технічні параметри"
 #: model:ir.model.fields,help:base_technical_user.field_res_company__user_tech_id
 msgid "This user can be used by process for technical purpose"
 msgstr "Цей користувач може використовуватися процесами для технічних цілей"
+
+#. module: base_technical_user
+#. odoo-python
+#: code:addons/base_technical_user/models/models.py:0
+msgid "The technical user is missing in the company {}"
+msgstr "У компанії {} відсутній технічний користувач"

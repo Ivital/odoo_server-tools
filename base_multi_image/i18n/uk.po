@@ -255,13 +255,13 @@ msgstr ""
 #: code:addons/base_multi_image/models/image.py:0
 #, python-format
 msgid "You must provide a file path for the image."
-msgstr ""
+msgstr "Потрібно вказати шлях до файлу зображення."
 
 #. module: base_multi_image
 #: code:addons/base_multi_image/models/image.py:0
 #, python-format
 msgid "You must provide an URL for the image."
-msgstr ""
+msgstr "Потрібно вказати URL для зображення."
 
 #. module: base_multi_image
 #: code:addons/base_multi_image/models/image.py:0
@@ -304,3 +304,15 @@ msgstr "Основна інформація"
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__attachment_id
 msgid "Image stored in Attachment"
 msgstr "Зображення зберігається у вкладенні"
+
+#. module: base_multi_image
+#. odoo-python
+#: code:addons/base_multi_image/models/image.py:0
+msgid "You must upload image to store in database."
+msgstr "Потрібно завантажити зображення для збереження в базі даних."
+
+#. module: base_multi_image
+#. odoo-python
+#: code:addons/base_multi_image/models/image.py:0
+msgid "You must upload image."
+msgstr "Необхідно завантажити зображення."

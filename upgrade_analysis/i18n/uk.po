@@ -473,3 +473,50 @@ msgstr "Запис оновлення"
 #: model:ir.model.fields,help:upgrade_analysis.field_upgrade_analysis__write_files
 msgid "Write analysis files to the module directories"
 msgstr "Записувати файли аналізу в каталоги модулів"
+
+#. module: upgrade_analysis
+#. odoo-python
+#: code:addons/upgrade_analysis/wizards/upgrade_generate_record_wizard.py:0
+msgid "Cannot seem to install or upgrade modules %s"
+msgstr "Не вдається встановити або оновити модулі %s"
+
+#. module: upgrade_analysis
+#. odoo-python
+#: code:addons/upgrade_analysis/models/upgrade_comparison_config.py:0
+msgid ""
+"Connection failed.\n"
+"\n"
+"DETAIL: %s"
+msgstr ""
+"Помилка з’єднання.\n"
+"\n"
+"ДЕТАЛІ: %s"
+
+#. module: upgrade_analysis
+#. odoo-python
+#: code:addons/upgrade_analysis/models/upgrade_comparison_config.py:0
+msgid "Could not connect the Odoo server at %(server)s:%(port)s"
+msgstr ""
+"Не вдалося підключитися до сервера Odoo за адресою %(server)s:%(port)s"
+
+#. module: upgrade_analysis
+#. odoo-python
+#: code:addons/upgrade_analysis/models/upgrade_record.py:0
+msgid "No manifest found in %(addon_dir)s"
+msgstr "Маніфест у %(addon_dir)s не знайдено"
+
+#. module: upgrade_analysis
+#. odoo-python
+#: code:addons/upgrade_analysis/models/upgrade_analysis.py:0
+msgid "Unexpected root Element: %(root)s in file: %(file)s"
+msgstr "Неочікуваний кореневий елемент: %(root)s у файлі: %(file)s"
+
+#. module: upgrade_analysis
+#. odoo-python
+#: code:addons/upgrade_analysis/models/upgrade_comparison_config.py:0
+msgid ""
+"You are correctly connected to the server %(server)s (version %(version)s) "
+"with the user %(user_name)s"
+msgstr ""
+"Ви успішно підключені до сервера %(server)s (версія %(version)s) як "
+"користувач %(user_name)s"

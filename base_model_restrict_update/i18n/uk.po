@@ -69,3 +69,15 @@ msgid ""
 msgstr ""
 "Якщо вибрано, модель доступна лише для читання, якщо користувач не належить "
 "до групи з дозволом на оновлення."
+
+#. module: base_model_restrict_update
+#. odoo-python
+#: code:addons/base_model_restrict_update/models/ir_model_access.py:0
+msgid "You are only allowed to read this record. (%(model)s - %(mode)s)"
+msgstr "Вам дозволено лише читати цей запис. (%(model)s - %(mode)s)"
+
+#. module: base_model_restrict_update
+#. odoo-python
+#: code:addons/base_model_restrict_update/models/res_users.py:0
+msgid "You cannot make the admin user read-only."
+msgstr "Не можна зробити адміністратора користувачем лише для читання."
