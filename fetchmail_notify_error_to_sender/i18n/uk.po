@@ -17,3 +17,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_fetchmail_server__error_notice_template_id
 msgid "Error notice template"
 msgstr "Шаблон повідомлення про помилку"
+
+#. module: fetchmail_notify_error_to_sender
+#: model:mail.template,name:fetchmail_notify_error_to_sender.email_template_error_notice
+msgid "Fetchmail - error notice"
+msgstr "Fetchmail — сповіщення про помилку"
+
+#. module: fetchmail_notify_error_to_sender
+#: model:mail.template,subject:fetchmail_notify_error_to_sender.email_template_error_notice
+msgid "Receiving error with: {{ctx.get('sender_message').get('subject')}}"
+msgstr "Отримано помилку з: {{ctx.get('sender_message').get('subject')}}"
+
+#. module: fetchmail_notify_error_to_sender
+#: model:ir.model.fields,help:fetchmail_notify_error_to_sender.field_fetchmail_server__error_notice_template_id
+msgid ""
+"Set here the template to use to send notice to sender when errors occur "
+"while fetching email"
+msgstr ""
+"Вкажіть шаблон для надсилання сповіщення відправнику про помилки під час "
+"отримання пошти"

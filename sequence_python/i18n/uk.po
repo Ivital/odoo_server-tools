@@ -101,3 +101,8 @@ msgid ""
 msgstr ""
 "Введений тут вираз буде обчислено як наступний номер. Можна використовувати "
 "такі змінні:"
+
+#. module: sequence_python
+#: model:ir.model.fields,help:sequence_python.field_ir_sequence__python_code
+msgid "Write Python code that generates the sequence body."
+msgstr "Напишіть код Python, що генерує тіло послідовності."

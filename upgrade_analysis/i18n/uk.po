@@ -423,3 +423,53 @@ msgstr ""
 #: model:ir.actions.act_window,name:upgrade_analysis.action_upgrade_comparison_config_tree
 msgid "upgrade Comparison Configs"
 msgstr "Конфігурації порівняння оновлення"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,help:upgrade_analysis.field_upgrade_record__mode
+msgid ""
+"Set to Create if a field is newly created in this module. If this module "
+"modifies an attribute of an existing field, set to Modify."
+msgstr ""
+"Встановіть «Створити», якщо поле щойно створене в цьому модулі. Якщо цей "
+"модуль змінює атрибут наявного поля, встановіть «Змінити»."
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,help:upgrade_analysis.field_upgrade_analysis__upgrade_path
+msgid ""
+"The base file path to save the analyse files of Odoo modules. Taken from "
+"Odoo's --upgrade-path command line option or the 'scripts' subdirectory in "
+"the openupgrade_scripts addon."
+msgstr ""
+"Базовий шлях до файлів аналізу модулів Odoo. Береться з параметра командного"
+" рядка Odoo --upgrade-path або підкаталогу 'scripts' у додатку "
+"openupgrade_scripts."
+
+#. module: upgrade_analysis
+#: model:ir.model,name:upgrade_analysis.model_upgrade_attribute
+msgid "Upgrade Attribute"
+msgstr "Атрибут оновлення"
+
+#. module: upgrade_analysis
+#: model:ir.model,name:upgrade_analysis.model_upgrade_comparison_config
+msgid "Upgrade Comparison Configuration"
+msgstr "Конфігурація порівняння оновлень"
+
+#. module: upgrade_analysis
+#: model:ir.model,name:upgrade_analysis.model_upgrade_generate_record_wizard
+msgid "Upgrade Generate Record Wizard"
+msgstr "Майстер створення запису оновлення"
+
+#. module: upgrade_analysis
+#: model:ir.model,name:upgrade_analysis.model_upgrade_install_wizard
+msgid "Upgrade Install Wizard"
+msgstr "Майстер встановлення оновлення"
+
+#. module: upgrade_analysis
+#: model:ir.model,name:upgrade_analysis.model_upgrade_record
+msgid "Upgrade Record"
+msgstr "Запис оновлення"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,help:upgrade_analysis.field_upgrade_analysis__write_files
+msgid "Write analysis files to the module directories"
+msgstr "Записувати файли аналізу в каталоги модулів"

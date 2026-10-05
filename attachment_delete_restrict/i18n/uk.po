@@ -107,3 +107,65 @@ msgstr "Виберіть рівень обмеження видалення вк
 #: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__ir_model__restrict_delete_attachment__default
 msgid "Use global configuration"
 msgstr "Використовувати глобальну конфігурацію"
+
+#. module: attachment_delete_restrict
+#: model:ir.model.fields,help:attachment_delete_restrict.field_res_config_settings__global_restrict_delete_attachment
+msgid "Define a default value for Attachments Deletion"
+msgstr "Визначити типове значення для видалення вкладень"
+
+#. module: attachment_delete_restrict
+#: model:ir.model.fields,help:attachment_delete_restrict.field_res_users__delete_attachment_model_ids
+msgid ""
+"The user can delete the attachments related to the models assigned here. "
+"Restrict Attachment Deletion must be'Custom' or 'Owner + Custom' for the "
+"model to be selected here."
+msgstr ""
+"Користувач може видаляти вкладення, пов’язані з моделями, призначеними тут. "
+"Для вибору моделі параметр «Обмеження видалення вкладень» має бути «Власний»"
+" або «Власник + Власний»."
+
+#. module: attachment_delete_restrict
+#: model:ir.model.fields,help:attachment_delete_restrict.field_res_config_settings__global_delete_attachment_group_ids
+msgid "The users in the groups selected here can delete all the attachments."
+msgstr "Користувачі у вибраних тут групах можуть видаляти всі вкладення."
+
+#. module: attachment_delete_restrict
+#: model:ir.model.fields,help:attachment_delete_restrict.field_ir_model__delete_attachment_group_ids
+msgid ""
+"The users in the groups selected here can delete the attachments related to "
+"this model."
+msgstr ""
+"Користувачі вибраних тут груп можуть видаляти вкладення, пов’язані з цією "
+"моделлю."
+
+#. module: attachment_delete_restrict
+#: model:ir.model.fields,help:attachment_delete_restrict.field_res_groups__delete_attachment_model_ids
+msgid ""
+"The users of the group can delete the attachments related to the models "
+"assigned here. Restrict Attachment Deletion must be'Custom' or 'Owner + "
+"Custom' for the model to be selected here."
+msgstr ""
+"Користувачі групи можуть видаляти вкладення, пов’язані з призначеними тут "
+"моделями. Для вибору моделі параметр «Обмеження видалення вкладень» має бути"
+" «Власне» або «Власник + Власне»."
+
+#. module: attachment_delete_restrict
+#: model:ir.model.fields,help:attachment_delete_restrict.field_res_config_settings__global_delete_attachment_user_ids
+msgid "The users selected here can delete all the attachments"
+msgstr "Вибрані тут користувачі можуть видаляти всі вкладення"
+
+#. module: attachment_delete_restrict
+#: model:ir.model.fields,help:attachment_delete_restrict.field_ir_model__delete_attachment_user_ids
+msgid ""
+"The users selected here can delete the attachments related to this model."
+msgstr ""
+"Вибрані тут користувачі можуть видаляти вкладення, пов’язані з цією моделлю."
+
+#. module: attachment_delete_restrict
+#: model:ir.model.fields,help:attachment_delete_restrict.field_ir_model__restrict_delete_attachment
+msgid ""
+"When selected, the deletion of the attachments related to this model is "
+"restricted to certain users."
+msgstr ""
+"Якщо вибрано, видаляти вкладення, пов’язані з цією моделлю, зможуть лише "
+"певні користувачі."

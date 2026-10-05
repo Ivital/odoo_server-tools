@@ -472,3 +472,41 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:attachment_queue.field_attachment_queue__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: attachment_queue
+#: model:mail.template,name:attachment_queue.attachment_failure_notification
+msgid "Attachment Failure notification"
+msgstr "Сповіщення про помилку вкладення"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__failure_emails
+msgid ""
+"Comma-separated list of email addresses to be notified in case offailure"
+msgstr ""
+"Розділений комами список адрес електронної пошти для сповіщення у разі "
+"помилки"
+
+#. module: attachment_queue
+#: model:mail.template,subject:attachment_queue.attachment_failure_notification
+msgid "The attachment {{object.name}} has failed"
+msgstr "Вкладення {{object.name}} завершилося помилкою"
+
+#. module: attachment_queue
+#: model:ir.model,name:attachment_queue.model_attachment_queue_reschedule
+msgid "Wizard to reschedule a selection of attachments"
+msgstr "Майстер перепланування вибраних вкладень"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__type
+msgid ""
+"You can either upload a file from your computer or copy/paste an internet "
+"link to your file."
+msgstr ""
+"Ви можете завантажити файл з комп'ютера або скопіювати та вставити посилання"
+" на ваш файл."
+
+#. module: attachment_queue
+#. odoo-python
+#: code:addons/attachment_queue/tests/test_models.py:0
+msgid "boom"
+msgstr "вибух"

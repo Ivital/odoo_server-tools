@@ -52,3 +52,20 @@ msgstr "Оновити обмеження моделі"
 #: model:ir.model.fields,field_description:base_model_restrict_update.field_ir_model__update_allowed_group_ids
 msgid "Update-Allowed Groups"
 msgstr "Групи, яким дозволено оновлення"
+
+#. module: base_model_restrict_update
+#: model:ir.model.fields,help:base_model_restrict_update.field_res_users__is_readonly_user
+msgid ""
+"Select this option to prevent the user from updating any business records."
+msgstr ""
+"Виберіть цей параметр, щоб заборонити користувачу оновлювати будь-які "
+"бізнес-записи."
+
+#. module: base_model_restrict_update
+#: model:ir.model.fields,help:base_model_restrict_update.field_ir_model__restrict_update
+msgid ""
+"When selected, the model is restricted to read-only unless the user belongs "
+"to an Update-Allowed Group."
+msgstr ""
+"Якщо вибрано, модель доступна лише для читання, якщо користувач не належить "
+"до групи з дозволом на оновлення."

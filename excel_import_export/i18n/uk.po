@@ -859,3 +859,175 @@ msgstr "Критерії пошуку"
 #: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
 msgid "⇒ Get Sample Import Template"
 msgstr "⇒ Отримати зразок шаблону імпорту"
+
+#. module: excel_import_export
+#: model:ir.model,name:excel_import_export.model_xlsx_styles
+msgid "Available styles for excel"
+msgstr "Доступні стилі для Excel"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_import__no_delete
+msgid ""
+"By default, all rows will be deleted before import.\n"
+"Select No Delete, otherwise"
+msgstr ""
+"Типово всі рядки буде видалено перед імпортом.\n"
+"Інакше виберіть «Не видаляти»"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__post_import_hook
+msgid ""
+"Call a function after successful import, i.e.,\n"
+"${object.post_import_do_something()}"
+msgstr ""
+"Викликати функцію після успішного імпорту, напр.:\n"
+"${object.post_import_do_something()}"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_export__is_cont
+msgid "Continue data rows after last data row"
+msgstr "Продовжувати рядки даних після останнього рядка даних"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__to_csv
+msgid "Convert file into CSV format on export"
+msgstr "Перетворювати файл у формат CSV під час експорту"
+
+#. module: excel_import_export
+#: model:ir.model,name:excel_import_export.model_xlsx_template_export
+msgid "Detailed of how excel data will be exported"
+msgstr "Детальний опис експорту даних Excel"
+
+#. module: excel_import_export
+#: model:ir.model,name:excel_import_export.model_xlsx_template_import
+msgid "Detailed of how excel data will be imported"
+msgstr "Детальний опис імпорту даних Excel"
+
+#. module: excel_import_export
+#: model:ir.model,name:excel_import_export.model_xlsx_export
+msgid "Excel Export AbstractModel"
+msgstr "Абстрактна модель експорту Excel"
+
+#. module: excel_import_export
+#: model:ir.model,name:excel_import_export.model_xlsx_import
+msgid "Excel Import AbstractModel"
+msgstr "Абстрактна модель імпорту Excel"
+
+#. module: excel_import_export
+#: model:ir.model,name:excel_import_export.model_xlsx_report
+msgid "Excel Report AbstractModel"
+msgstr "Абстрактна модель звіту Excel"
+
+#. module: excel_import_export
+#: model:ir.model,name:excel_import_export.model_xlsx_template
+msgid "Excel template file and instruction"
+msgstr "Файл шаблону Excel та інструкція"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_export__is_extend
+msgid "Extend a blank row after filling each record, to extend the footer"
+msgstr ""
+"Розширювати порожній рядок після заповнення кожного запису, щоб розширити "
+"нижній колонтитул"
+
+#. module: excel_import_export
+#: model:ir.model,name:excel_import_export.model_report_xlsx_wizard
+msgid "Generic Report Wizard, used with template reporting option"
+msgstr ""
+"Універсальний майстер звітів, що використовується з параметром шаблонної "
+"звітності"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_export__row_field
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_import__row_field
+msgid "If section type is row, this field is required"
+msgstr "Якщо тип секції — рядок, це поле обов’язкове"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__instruction
+msgid "Instruction on how to import/export, prepared by system."
+msgstr "Інструкція з імпорту/експорту, підготовлена системою."
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__gname
+msgid ""
+"Multiple template of same model, can belong to same group,\n"
+"result in multiple template selection"
+msgstr ""
+"Кілька шаблонів тієї самої моделі можуть належати до однієї групи,\n"
+"що дає вибір кількох шаблонів"
+
+#. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_report.py:0
+#: code:addons/excel_import_export/wizard/export_xlsx_wizard.py:0
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+msgid "No template found"
+msgstr "Шаблон не знайдено"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__redirect_action
+msgid "Optional action, redirection after finish import operation"
+msgstr "Необов’язкова дія — перенаправлення після завершення операції імпорту"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__csv_extension
+msgid "Optional for CSV, default is .csv"
+msgstr "Необов’язково для CSV, за замовчуванням .csv"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__csv_delimiter
+msgid "Optional for CSV, default is comma."
+msgstr "Необов’язково для CSV, за замовчуванням кома."
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__csv_quote
+msgid "Optional for CSV, default is full quoting."
+msgstr "Необов’язково для CSV, за замовчуванням повне цитування."
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__res_model
+msgid "The database object this attachment will be attached to."
+msgstr "Об’єкт бази даних, до якого буде прикріплено це вкладення."
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__show_instruction
+msgid ""
+"This is the computed instruction based on tab Import/Export,\n"
+"to be used by xlsx import/export engine"
+msgstr ""
+"Обчислена інструкція на основі вкладки Імпорт/Експорт,\n"
+"яку використовує рушій імпорту/експорту XLSX"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__input_instruction
+msgid "This is used to construct instruction in tab Import/Export"
+msgstr ""
+"Використовується для формування інструкції на вкладці «Імпорт/Експорт»"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__use_report_wizard
+msgid "Use common report wizard model, instead of create specific model"
+msgstr ""
+"Використовувати спільну модель майстра звітів замість створення окремої "
+"моделі"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__result_model_id
+msgid "When use commone wizard, choose the result model"
+msgstr "При використанні спільного майстра виберіть модель результату"
+
+#. module: excel_import_export
+#: model:ir.model,name:excel_import_export.model_export_xlsx_wizard
+msgid "Wizard for exporting excel"
+msgstr "Майстер експорту Excel"
+
+#. module: excel_import_export
+#: model:ir.model,name:excel_import_export.model_import_xlsx_wizard
+msgid "Wizard for importing excel"
+msgstr "Майстер імпорту Excel"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_import_xlsx_wizard__attachment_ids
+msgid "You can select multiple files to import."
+msgstr "Для імпорту можна вибрати кілька файлів."

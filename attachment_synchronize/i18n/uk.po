@@ -291,3 +291,84 @@ msgstr "Шаблон вибору"
 #: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
 msgid "Storage Location"
 msgstr "Місце зберігання"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,help:attachment_synchronize.field_attachment_synchronize_task__after_import
+msgid "Action after import a file"
+msgstr "Дія після імпорту файлу"
+
+#. module: attachment_synchronize
+#: model:ir.model,name:attachment_synchronize.model_attachment_queue
+msgid "Attachment Queue"
+msgstr "Черга вкладень"
+
+#. module: attachment_synchronize
+#: model:ir.model,name:attachment_synchronize.model_attachment_synchronize_task
+msgid "Attachment synchronize task"
+msgstr "Завдання синхронізації вкладень"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,help:attachment_synchronize.field_attachment_synchronize_task__avoid_duplicated_files
+msgid ""
+"If checked, a file will not be imported if an Attachment Queue with the same"
+" name already exists."
+msgstr ""
+"Якщо позначено, файл не буде імпортовано, якщо вже існує черга вкладень з "
+"такою самою назвою."
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,help:attachment_synchronize.field_attachment_synchronize_task__move_path
+msgid "Imported File will be moved to this path"
+msgstr "Імпортований файл буде переміщено за цим шляхом"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,help:attachment_synchronize.field_attachment_synchronize_task__new_name
+msgid ""
+"Imported File will be renamed to this name.\n"
+"New Name can use 'mako' template where 'obj' is the original file's name.\n"
+"For instance : ${obj.name}-${obj.create_date}.csv"
+msgstr ""
+"Імпортований файл буде перейменовано на цю назву.\n"
+"Нова назва може використовувати шаблон 'mako', де 'obj' — початкова назва файлу.\n"
+"Наприклад: ${obj.name}-${obj.create_date}.csv"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,help:attachment_synchronize.field_attachment_synchronize_task__filepath
+msgid "Path to imported/exported files in the Backend"
+msgstr "Шлях до імпортованих/експортованих файлів у бекенді"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,help:attachment_synchronize.field_attachment_synchronize_task__pattern
+msgid ""
+"Pattern used to select the files to be imported following the 'fnmatch' special characters (e.g. '*.txt' to catch all the text files).\n"
+"If empty, import all the files found in 'File Path'."
+msgstr ""
+"Шаблон для вибору файлів, що імпортуються, з використанням спеціальних символів 'fnmatch' (наприклад, '*.txt' для всіх текстових файлів).\n"
+"Якщо порожньо, імпортуються всі файли, знайдені у «Шляху до файлів»."
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,help:attachment_synchronize.field_attachment_queue__file_type
+msgid ""
+"The file type determines an import method to be used to parse and transform "
+"data before their import in ERP or an export"
+msgstr ""
+"Тип файлу визначає метод імпорту, що використовується для розбору й "
+"перетворення даних перед імпортом в ERP або експортом"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,help:attachment_synchronize.field_attachment_synchronize_task__failure_emails
+msgid ""
+"Used to fill the 'Failure Emails' field in the 'Attachments Queues' related to this task.\n"
+"An alert will be sent to these emails if any operation on these Attachment Queue's file type fails."
+msgstr ""
+"Використовується для заповнення поля «Електронні адреси для помилок» у «Чергах вкладень», пов’язаних із цим завданням.\n"
+"На ці адреси буде надіслано попередження, якщо будь-яка операція з типом файлу цієї черги вкладень завершиться помилкою."
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,help:attachment_synchronize.field_attachment_synchronize_task__file_type
+msgid ""
+"Used to fill the 'File Type' field in the imported 'Attachments Queues'.\n"
+"Further operations will be realized on these Attachments Queues depending on their 'File Type' value."
+msgstr ""
+"Використовується для заповнення поля «Тип файлу» в імпортованих «Чергах вкладень».\n"
+"Подальші операції з цими чергами вкладень виконуватимуться залежно від значення їхнього «Типу файлу»."

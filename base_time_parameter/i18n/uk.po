@@ -159,3 +159,28 @@ msgstr "Логічне (Так/Ні)"
 #: model:ir.model.fields.selection,name:base_time_parameter.selection__base_time_parameter__type__float
 msgid "Floating point number"
 msgstr "Число з плаваючою крапкою"
+
+#. module: base_time_parameter
+#: model:ir.model.constraint,message:base_time_parameter.constraint_base_time_parameter_version__unique
+msgid "A parameter cannot have two versions starting the same day."
+msgstr "Параметр не може мати дві версії, що починаються в один день."
+
+#. module: base_time_parameter
+#: model:ir.model.fields,help:base_time_parameter.field_base_time_parameter__model_id
+msgid "Filter by model (e.g. hr.payslip)"
+msgstr "Фільтр за моделлю (напр. hr.payslip)"
+
+#. module: base_time_parameter
+#: model:res.groups,name:base_time_parameter.group_time_parameter
+msgid "Manage Time Parameters"
+msgstr "Керування параметрами часу"
+
+#. module: base_time_parameter
+#: model:ir.model,name:base_time_parameter.model_base_time_parameter_version
+msgid "Time Parameter Version"
+msgstr "Версія параметра часу"
+
+#. module: base_time_parameter
+#: model:ir.model.constraint,message:base_time_parameter.constraint_base_time_parameter__unique
+msgid "Two time parameters cannot have the same code."
+msgstr "Два параметри часу не можуть мати однаковий код."

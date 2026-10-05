@@ -359,3 +359,158 @@ msgstr "Обробляти лише вказані каталоги"
 #: model_terms:ir.ui.view,arch_db:fetchmail_attach_from_folder.view_email_server_form
 msgid "Reset Confirmation"
 msgstr "Скинути підтвердження"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model,name:fetchmail_attach_from_folder.model_fetchmail_attach_mail_manually
+msgid "Attach mail to selected documents."
+msgstr "Прикріпити лист до вибраних документів."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model,name:fetchmail_attach_from_folder.model_fetchmail_attach_mail_manually_mail
+msgid "Attach single mail to selected documents."
+msgstr "Прикріпити один лист до вибраних документів."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__fetch_last_day_only
+msgid ""
+"By default, all emails in the folder are searched. Enable this option to "
+"only fetch emails received in the last 24 hours. This helps avoid "
+"reprocessing emails if they are not deleted after processing."
+msgstr ""
+"Типово виконується пошук усіх електронних листів у папці. Увімкніть цей "
+"параметр, щоб отримувати лише листи, одержані за останні 24 години. Це "
+"допомагає уникнути повторної обробки листів, якщо після обробки вони не "
+"видаляються."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__fetch_unseen_only
+msgid ""
+"By default, all undeleted emails are retrieved. Enable this option to fetch "
+"only unread emails."
+msgstr ""
+"Типово отримуються всі невидалені листи. Увімкніть, щоб отримувати лише "
+"непрочитані."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__domain
+msgid "Define a search filter to narrow down objects for email matching."
+msgstr ""
+"Визначте фільтр пошуку, щоб звузити об’єкти для зіставлення електронної "
+"пошти."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model,name:fetchmail_attach_from_folder.model_fetchmail_server_folder
+msgid "Define folders (IMAP mailboxes) from which to fetch mail."
+msgstr "Визначте папки (поштові скриньки IMAP), з яких отримувати пошту."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__delete_matching
+msgid ""
+"Enable this option to delete emails after they are successfully processed "
+"and matched."
+msgstr ""
+"Увімкніть, щоб видаляти листи після їх успішної обробки та зіставлення."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server__folders_only
+msgid ""
+"Enable this option to ignore the default IMAP inbox processing and retrieve "
+"emails only from the specified folders."
+msgstr ""
+"Увімкніть, щоб ігнорувати типову обробку вхідної IMAP-пошти й отримувати "
+"листи лише із зазначених папок."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__flag_nonmatching
+msgid ""
+"Enable this option to mark emails as important if they do not match any "
+"object in Odoo."
+msgstr ""
+"Увімкніть, щоб позначати листи важливими, якщо вони не відповідають жодному "
+"об’єкту в Odoo."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__match_first
+msgid ""
+"If there are multiple matches, use the first one. If disabled, multiple "
+"matches will be considered as no match."
+msgstr ""
+"Якщо є кілька збігів, використовувати перший. Якщо вимкнено, кілька збігів "
+"вважатимуться відсутністю збігу."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__match_algorithm
+msgid "Select the algorithm used to determine which object an email matches."
+msgstr ""
+"Виберіть алгоритм визначення об’єкта, якому відповідає електронний лист."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__action_id
+msgid ""
+"Specify an optional custom server action to trigger for each incoming email."
+" The action will run on the record that was created or updated by this "
+"email."
+msgstr ""
+"Вкажіть необов’язкову власну серверну дію, яку слід запускати для кожного "
+"вхідного листа. Дія виконуватиметься для запису, створеного або оновленого "
+"цим листом."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__path
+msgid ""
+"Specify the IMAP folder path to retrieve emails from. Typically, this would "
+"be something like 'INBOX.myfolder'."
+msgstr ""
+"Укажіть шлях до папки IMAP для отримання листів. Зазвичай це щось на кшталт "
+"'INBOX.myfolder'."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__mail_field
+msgid ""
+"Specify the field in the email used for matching. Typically, this is 'to', "
+"'from' or 'reply_to'."
+msgstr ""
+"Укажіть поле листа, що використовується для зіставлення. Зазвичай це 'to', "
+"'from' або 'reply_to'."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__model_field
+msgid ""
+"Specify the field in the model that will be used for email matching.\n"
+"Examples:\n"
+"- 'email' if your model is res.partner\n"
+"- 'partner_id.email' if matching sale orders."
+msgstr ""
+"Вкажіть поле моделі, яке використовуватиметься для зіставлення електронної пошти.\n"
+"Приклади:\n"
+"- 'email', якщо ваша модель — res.partner\n"
+"- 'partner_id.email' для зіставлення замовлень на продаж."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__model_order
+msgid ""
+"Specify the field(s) to order by when matching emails. This is mostly useful"
+" in conjunction with 'Use 1st Match'."
+msgstr ""
+"Укажіть поле(я) сортування під час зіставлення листів. Особливо корисно "
+"разом із «Використовувати 1-й збіг»."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__archive_path
+msgid ""
+"Specify the folder where successfully retrieved emails will be moved after "
+"processing. If left empty, emails will remain in the original folder."
+msgstr ""
+"Вкажіть папку, до якої після обробки переміщуватимуться успішно отримані "
+"листи. Якщо залишити порожнім, листи залишатимуться у вихідній папці."
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__model_id
+msgid "The model to attach emails to"
+msgstr "Модель, до якої прикріплювати листи"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__msg_state
+msgid "The state messages fetched from this folder should be assigned in Odoo"
+msgstr ""
+"Повідомлення стану, отримані з цієї папки, мають бути призначені в Odoo"

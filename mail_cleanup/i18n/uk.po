@@ -27,3 +27,18 @@ msgstr "Днів до закінчення"
 #: model:ir.model.fields,field_description:mail_cleanup.field_fetchmail_server__cleanup_folder
 msgid "Expiration folder"
 msgstr "Папка завершених"
+
+#. module: mail_cleanup
+#: model:ir.model.fields,help:mail_cleanup.field_fetchmail_server__cleanup_folder
+msgid "Folder where an e-mail marked as read will be moved."
+msgstr "Папка, куди буде переміщено email, позначений прочитаним."
+
+#. module: mail_cleanup
+#: model:ir.model.fields,help:mail_cleanup.field_fetchmail_server__cleanup_days
+msgid "Number of days before marking an e-mail as read"
+msgstr "Кількість днів до позначення email як прочитаного"
+
+#. module: mail_cleanup
+#: model:ir.model.fields,help:mail_cleanup.field_fetchmail_server__purge_days
+msgid "Number of days before removing an e-mail"
+msgstr "Кількість днів до видалення email"

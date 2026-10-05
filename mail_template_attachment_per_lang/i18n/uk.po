@@ -94,3 +94,8 @@ msgstr "Мова партнера"
 #: model:ir.model.fields.selection,name:mail_template_attachment_per_lang.selection__mail_template__ir_attachment_language_method__template_lang
 msgid "Template Language"
 msgstr "Мова шаблону"
+
+#. module: mail_template_attachment_per_lang
+#: model:ir.model,name:mail_template_attachment_per_lang.model_ir_attachment_language
+msgid "Attachment Language"
+msgstr "Мова вкладення"

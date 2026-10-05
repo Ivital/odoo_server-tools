@@ -135,3 +135,54 @@ msgstr "Використовувати параметри послідовнос
 #: model:ir.model.fields,field_description:base_sequence_option.field_ir_sequence_option__option_ids
 msgid "Sequence Options"
 msgstr "Параметри послідовності"
+
+#. module: base_sequence_option
+#: model:ir.model.fields,help:base_sequence_option.field_ir_sequence_option__company_id
+#: model:ir.model.fields,help:base_sequence_option.field_ir_sequence_option_line__company_id
+msgid "Company related to this sequence option"
+msgstr "Компанія, пов’язана з цим параметром послідовності"
+
+#. module: base_sequence_option
+#: model:ir.model.fields,help:base_sequence_option.field_ir_sequence_option_line__filter_domain
+msgid "Find matching option by document values"
+msgstr "Знайти відповідний параметр за значеннями документа"
+
+#. module: base_sequence_option
+#: model:ir.model.fields,help:base_sequence_option.field_ir_sequence_option__use_sequence_option
+#: model:ir.model.fields,help:base_sequence_option.field_ir_sequence_option_line__use_sequence_option
+msgid ""
+"If checked, Odoo will try to find the new matching sequence first, if not "
+"found, fall back to use the original Odoo sequence."
+msgstr ""
+"Якщо позначено, Odoo спочатку спробує знайти нову відповідну послідовність; "
+"якщо не знайде, використає початкову послідовність Odoo."
+
+#. module: base_sequence_option
+#: model:ir.model.fields,help:base_sequence_option.field_ir_sequence_option_line__prefix
+msgid "Prefix value of the record for the sequence"
+msgstr "Значення префікса запису для послідовності"
+
+#. module: base_sequence_option
+#: model:ir.model,name:base_sequence_option.model_ir_sequence_option_line
+msgid "Sequence Option Line"
+msgstr "Рядок параметра послідовності"
+
+#. module: base_sequence_option
+#: model:ir.model.fields,help:base_sequence_option.field_ir_sequence_option_line__suffix
+msgid "Suffix value of the record for the sequence"
+msgstr "Суфікс значення запису для послідовності"
+
+#. module: base_sequence_option
+#: model:ir.model.fields,help:base_sequence_option.field_ir_sequence_option_line__implementation
+msgid ""
+"While assigning a sequence number to a record, the 'no gap' sequence "
+"implementation ensures that each previous sequence number has been assigned "
+"already. While this sequence implementation will not skip any sequence "
+"number upon assignment, there can still be gaps in the sequence if records "
+"are deleted. The 'no gap' implementation is slower than the standard one."
+msgstr ""
+"Призначаючи порядковий номер запису, реалізація послідовності без пропуску "
+"гарантує, що кожен попередній порядковий номер уже був призначений. Хоча ця "
+"реалізація послідовності не пропускає жодного порядкового номера під час "
+"присвоєння, у послідовності можуть залишатися прогалини, якщо записи "
+"видаляються. Реалізація \"no gap\" повільніша, ніж стандартна."

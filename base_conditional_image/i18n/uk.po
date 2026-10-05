@@ -100,3 +100,30 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:base_conditional_image.field_conditional_image__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: base_conditional_image
+#: model:ir.model.fields,help:base_conditional_image.field_conditional_image__company_id
+msgid ""
+"Company related check. If inherited object does not have a `company_id` "
+"field, it will be ignored. The check will first take the records with a "
+"company then, if no match is found, the ones without a company."
+msgstr ""
+"Перевірка, пов'язана з компанією. Якщо успадкований об'єкт не має поля "
+"`company_id`, його буде проігноровано. Перевірка спочатку братиме записи з "
+"компанією, а якщо відповідності не знайдено — записи без компанії."
+
+#. module: base_conditional_image
+#: model:ir.model,name:base_conditional_image.model_conditional_image_consumer_mixin
+msgid "Mixin for conditional images consumers"
+msgstr "Міксин для споживачів умовних зображень"
+
+#. module: base_conditional_image
+#: model:ir.model.fields,help:base_conditional_image.field_conditional_image__selector
+msgid ""
+"Python expression used as selector when multiple images are usedfor the same"
+" object. The variable `object` refers to the actual record on which the "
+"expression will be executed. An empty expression will always return `True`."
+msgstr ""
+"Вираз Python, що використовується як селектор, коли для одного об'єкта "
+"застосовується кілька зображень. Змінна `object` посилається на фактичний "
+"запис, для якого буде виконано вираз. Порожній вираз завжди повертає `True`."

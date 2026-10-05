@@ -126,3 +126,72 @@ msgstr "Обробка вкладення"
 #: model:ir.model.fields,field_description:attachment_queue_email.field_attachment_queue__fetchmail_attachment_condition_id
 msgid "FetchMail condition"
 msgstr "Умова FetchMail"
+
+#. module: attachment_queue_email
+#: model:ir.model,name:attachment_queue_email.model_fetchmail_attachment_condition
+msgid "Fetchmail Attachment Conditions"
+msgstr "Умови вкладень Fetchmail"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,help:attachment_queue_email.field_fetchmail_server__attachment_condition_ids
+msgid ""
+"Files attached to the emails matching these conditions will be imported in "
+"Odoo as 'Attachment Queue' objects"
+msgstr ""
+"Файли, прикріплені до листів, що відповідають цим умовам, буде імпортовано в"
+" Odoo як об’єкти «Черга вкладень»"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,help:attachment_queue_email.field_fetchmail_attachment_condition__email_to
+msgid ""
+"If empty, catches the email no matter the recipient.\n"
+"Otherwise catches the emails where the recipients emails contains the given characters."
+msgstr ""
+"Якщо порожньо, перехоплює лист незалежно від одержувача.\n"
+"Інакше перехоплює листи, у яких адреси одержувачів містять задані символи."
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,help:attachment_queue_email.field_fetchmail_attachment_condition__email_from
+msgid ""
+"If empty, catches the emails from every senders.\n"
+"Otherwise catches the emails where the sender's email contains the given characters"
+msgstr ""
+"Якщо порожньо, перехоплює листи від усіх відправників.\n"
+"Інакше перехоплює листи, у яких електронна адреса відправника містить задані символи."
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,help:attachment_queue_email.field_fetchmail_attachment_condition__email_subject
+msgid ""
+"If empty, catches the emails with every kind of Subjects.\n"
+"Otherwise catches the emails where the Subject contains the given characters"
+msgstr ""
+"Якщо порожньо, перехоплює листи з будь-якими темами.\n"
+"Інакше перехоплює листи, у яких тема містить задані символи."
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,help:attachment_queue_email.field_fetchmail_attachment_condition__file_type
+msgid ""
+"The 'file type' is transmited to the 'Attachment Queue' objects created from the selected emails attachments.\n"
+"It will allow Odoo to recognize what do do with them once created."
+msgstr ""
+"«Тип файлу» передається об’єктам «Черга вкладень», створеним із вкладень вибраних листів.\n"
+"Це дасть Odoo змогу визначити, що робити з ними після створення."
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,help:attachment_queue_email.field_attachment_queue__fetchmail_attachment_condition_id
+msgid "The Fetchmail attachment condition used to create this attachment"
+msgstr "Умова вкладення Fetchmail, використана для створення цього вкладення"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,help:attachment_queue_email.field_attachment_queue__fetchmail_server_id
+msgid "The email server used to create this attachment"
+msgstr "Поштовий сервер, використаний для створення цього вкладення"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,help:attachment_queue_email.field_fetchmail_attachment_condition__file_extension
+msgid ""
+"The extension (or part of the name) of the sought files. If empty, all the "
+"email's attachments will be imported."
+msgstr ""
+"Розширення (або частина назви) шуканих файлів. Якщо порожньо, буде "
+"імпортовано всі вкладення листа."

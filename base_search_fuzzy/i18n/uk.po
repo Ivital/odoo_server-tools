@@ -25,6 +25,9 @@ msgid ""
 "search index type.See: https://www.postgresql.org/docs/current/textsearch-"
 "indexes.html"
 msgstr ""
+"Цитата з документації PostgreSQL: індекси GIN є рекомендованим типом "
+"індексів для текстового пошуку. Див.: "
+"https://www.postgresql.org/docs/current/textsearch-indexes.html"
 
 #. module: base_search_fuzzy
 #: model:ir.model.fields,field_description:base_search_fuzzy.field_trgm_index__create_uid
@@ -99,6 +102,10 @@ msgid ""
 "this index is reused. If the index is located in another table then a number"
 " is added at the end of the index name."
 msgstr ""
+"Назва індексу автоматично формується як fieldname_indextype_idx. Якщо індекс"
+" уже існує й розташований у тій самій таблиці, він буде використаний "
+"повторно. Якщо індекс розташований в іншій таблиці, наприкінці його назви "
+"буде додано номер."
 
 #. module: base_search_fuzzy
 #. odoo-python
@@ -116,12 +123,12 @@ msgstr "Триграмний індекс"
 #. module: base_search_fuzzy
 #: model:ir.model.fields,help:base_search_fuzzy.field_trgm_index__field_id
 msgid "You can either select a field of type \"text\" or \"char\"."
-msgstr ""
+msgstr "Можна вибрати поле типу «text» або «char»."
 
 #. module: base_search_fuzzy
 #: model:ir.model.fields,help:base_search_fuzzy.field_trgm_index__lang
 msgid "You will need one index per installed language."
-msgstr ""
+msgstr "Потрібен один індекс для кожної встановленої мови."
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

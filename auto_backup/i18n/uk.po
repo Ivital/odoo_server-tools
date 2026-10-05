@@ -26,7 +26,7 @@ msgstr ""
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__folder
 msgid "Absolute path for storing the backups"
-msgstr ""
+msgstr "Абсолютний шлях для зберігання резервних копій"
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__message_needaction
@@ -52,7 +52,7 @@ msgstr "Автоматичне резервне копіювання бази д
 #. module: auto_backup
 #: model:mail.message.subtype,name:auto_backup.mail_message_subtype_failure
 msgid "Backup Failed"
-msgstr ""
+msgstr "Помилка резервного копіювання"
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__backup_format
@@ -67,7 +67,7 @@ msgstr "Планувальник резервного копіювання"
 #. module: auto_backup
 #: model:mail.message.subtype,name:auto_backup.mail_message_subtype_success
 msgid "Backup Successful"
-msgstr ""
+msgstr "Резервне копіювання успішне"
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__days_to_keep
@@ -75,6 +75,8 @@ msgid ""
 "Backups older than this will be deleted automatically. Set 0 to disable "
 "autodeletion."
 msgstr ""
+"Резервні копії, старші за цей строк, видалятимуться автоматично. Встановіть "
+"0, щоб вимкнути автовидалення."
 
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
@@ -84,29 +86,29 @@ msgstr "Базова конфігурація резервного копіюв�
 #. module: auto_backup
 #: model:ir.model.constraint,message:auto_backup.constraint_db_backup_name_unique
 msgid "Cannot duplicate a configuration."
-msgstr ""
+msgstr "Не можна дублювати конфігурацію."
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__backup_format
 msgid "Choose the format for this backup."
-msgstr ""
+msgstr "Виберіть формат цієї резервної копії."
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__method
 msgid "Choose the storage method for this backup."
-msgstr ""
+msgstr "Виберіть спосіб зберігання цієї резервної копії."
 
 #. module: auto_backup
 #. odoo-python
 #: code:addons/auto_backup/models/db_backup.py:0
 msgid "Connection Test Failed!"
-msgstr ""
+msgstr "Перевірка з'єднання не вдалася!"
 
 #. module: auto_backup
 #. odoo-python
 #: code:addons/auto_backup/models/db_backup.py:0
 msgid "Connection Test Succeeded!"
-msgstr ""
+msgstr "Перевірку з'єднання пройдено успішно!"
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__create_uid
@@ -121,19 +123,19 @@ msgstr "Створено"
 #. module: auto_backup
 #: model:ir.model,name:auto_backup.model_db_backup
 msgid "Database Backup"
-msgstr ""
+msgstr "Резервна копія бази даних"
 
 #. module: auto_backup
 #: model:mail.message.subtype,description:auto_backup.mail_message_subtype_failure
 msgid "Database backup failed."
-msgstr ""
+msgstr "Не вдалося створити резервну копію бази даних."
 
 #. module: auto_backup
 #. odoo-python
 #: code:addons/auto_backup/models/db_backup.py:0
 #: model:mail.message.subtype,description:auto_backup.mail_message_subtype_success
 msgid "Database backup succeeded."
-msgstr ""
+msgstr "Резервну копію бази даних успішно створено."
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__days_to_keep
@@ -197,6 +199,7 @@ msgstr "Довідка"
 #: model:ir.model.constraint,message:auto_backup.constraint_db_backup_days_to_keep_positive
 msgid "I cannot remove backups from the future. Ask Doc for that."
 msgstr ""
+"Я не можу видалити резервні копії з майбутнього. Запитайте про це Doc."
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__id
@@ -279,6 +282,8 @@ msgid ""
 "Path to the private key file. Only the Odoo user should have read "
 "permissions for that file."
 msgstr ""
+"Шлях до файлу закритого ключа. Право читання цього файлу має мати лише "
+"користувач Odoo."
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__sftp_private_key
@@ -332,7 +337,7 @@ msgstr "Розумний пошук"
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__name
 msgid "Summary of this backup process"
-msgstr ""
+msgstr "Підсумок цього процесу резервного копіювання"
 
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
@@ -343,7 +348,7 @@ msgstr "Перевірити SFTP-з’єднання"
 #: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_host
 msgid ""
 "The host name or IP address from your remote server. For example 192.168.0.1"
-msgstr ""
+msgstr "Ім’я хоста або IP-адреса віддаленого сервера. Наприклад 192.168.0.1"
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_password
@@ -351,11 +356,13 @@ msgid ""
 "The password for the SFTP connection. If you specify a private key file, "
 "then this is the password to decrypt it."
 msgstr ""
+"Пароль SFTP-з’єднання. Якщо вказано файл закритого ключа, це пароль для його"
+" розшифрування."
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_port
 msgid "The port on the FTP server that accepts SSH/SFTP calls."
-msgstr ""
+msgstr "Порт FTP-сервера, який приймає з’єднання SSH/SFTP."
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_user
@@ -363,6 +370,7 @@ msgid ""
 "The username where the SFTP connection should be made with. This is the user"
 " on the external server."
 msgstr ""
+"Ім’я користувача для SFTP-з’єднання. Це користувач на зовнішньому сервері."
 
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form

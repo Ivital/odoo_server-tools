@@ -32,3 +32,15 @@ msgstr "Конфігурація RPC"
 #: model:ir.model.fields,field_description:rpc_helper.field_ir_model__rpc_config_edit
 msgid "Rpc Config Edit"
 msgstr "Редагування конфігурації RPC"
+
+#. module: rpc_helper
+#: model:ir.model.fields,help:rpc_helper.field_ir_model__rpc_config_edit
+msgid ""
+"Configure RPC config via JSON. Value must be a list of methods to disable "
+"wrapped by a dict with key `disable`. Eg: {'disable': ['search', "
+"'do_this']}To disable all methods, use `{'disable: ['all']}`"
+msgstr ""
+"Налаштуйте RPC через JSON. Значення має бути списком методів, які потрібно "
+"вимкнути, загорнутим у dict з ключем `disable`. Наприклад: {'disable': "
+"['search', 'do_this']} Щоб вимкнути всі методи, використовуйте `{'disable: "
+"['all']}`"

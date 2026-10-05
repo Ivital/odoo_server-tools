@@ -109,3 +109,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_autovacuum_tuning.field_database_autovacuum_tuning__vacuum_threshold
 msgid "Vacuum Threshold"
 msgstr "Поріг очищення"
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,help:database_autovacuum_tuning.field_database_autovacuum_tuning__name
+msgid "Table name"
+msgstr "Назва таблиці"

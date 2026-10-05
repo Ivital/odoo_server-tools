@@ -21,37 +21,37 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_create_indexes_line
 msgid "Cleanup Create Indexes line"
-msgstr ""
+msgstr "Рядок створення індексів очищення"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_column
 msgid "Cleanup Purge Line Column"
-msgstr ""
+msgstr "Стовпець рядка очищення"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_data
 msgid "Cleanup Purge Line Data"
-msgstr ""
+msgstr "Дані рядка очищення"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_menu
 msgid "Cleanup Purge Line Menu"
-msgstr ""
+msgstr "Меню рядка очищення"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_model
 msgid "Cleanup Purge Line Model"
-msgstr ""
+msgstr "Модель рядка очищення"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_module
 msgid "Cleanup Purge Line Module"
-msgstr ""
+msgstr "Модуль рядка очищення"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_table
 msgid "Cleanup Purge Line Table"
-msgstr ""
+msgstr "Таблиця рядка очищення"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_column__purge_line_ids
@@ -72,7 +72,7 @@ msgstr "Створити все"
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_create_indexes_wizard
 msgid "Create indexes"
-msgstr ""
+msgstr "Створити індекси"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.cleanup_create_indexes_wizard_action
@@ -357,7 +357,7 @@ msgstr "Очистити"
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line
 msgid "Purge Column Abstract Wizard"
-msgstr ""
+msgstr "Абстрактний майстер очищення стовпця"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_wizard__purge_line_ids
@@ -390,7 +390,7 @@ msgstr "Очистити колонки"
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_data
 msgid "Purge data"
-msgstr ""
+msgstr "Очистити дані"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_data
@@ -401,7 +401,7 @@ msgstr "Очистити записи даних, що посилаються н
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_field
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_field
 msgid "Purge fields"
-msgstr ""
+msgstr "Очистити поля"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_menus
@@ -460,7 +460,7 @@ msgstr "Очистити застарілі таблиці"
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard
 msgid "Purge stuff"
-msgstr ""
+msgstr "Очистити службові дані"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_tables
@@ -574,7 +574,7 @@ msgstr "Таблиці для очищення"
 #. module: database_cleanup
 #: model:ir.model.fields,help:database_cleanup.field_cleanup_purge_line_field__model_id
 msgid "The model this field belongs to"
-msgstr ""
+msgstr "Модель, до якої відноситься це поле"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line__wizard_id

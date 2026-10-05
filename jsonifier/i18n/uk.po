@@ -126,3 +126,81 @@ msgstr "Користувацький глобальний резолвер"
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports__language_agnostic
 msgid "Language Agnostic"
 msgstr "Незалежний від мови"
+
+#. module: jsonifier
+#: model:ir.model.fields,help:jsonifier.field_ir_exports_line__instance_method_name
+msgid "A method defined on the model that takes a record and a field_name"
+msgstr "Метод, визначений у моделі, який приймає запис і field_name"
+
+#. module: jsonifier
+#: model:ir.model.fields,help:jsonifier.field_ir_exports_resolver__python_code
+msgid ""
+"Compute the result from 'value' by setting the variable 'result'.\n"
+"\n"
+"For fields resolvers:\n"
+":param record: the record\n"
+":param name: name of the field\n"
+":param value: value of the field\n"
+":param field_type: type of the field\n"
+"\n"
+"For global resolvers:\n"
+":param value: JSON dict\n"
+":param record: the record\n"
+"\n"
+"In both types, you can override the final json key.\n"
+"To achieve this, simply return a dict like: \n"
+"{'result': {'_value': $value, '_json_key': $new_json_key}}"
+msgstr ""
+"Обчислити результат із 'value', установивши змінну 'result'.\n"
+"\n"
+"Для резолверів полів:\n"
+":param record: запис\n"
+":param name: назва поля\n"
+":param value: значення поля\n"
+":param field_type: тип поля\n"
+"\n"
+"Для глобальних резолверів:\n"
+":param value: JSON-словник\n"
+":param record: запис\n"
+"\n"
+"В обох типах можна перевизначити кінцевий ключ json.\n"
+"Для цього просто поверніть словник такого вигляду:\n"
+"{'result': {'_value': $value, '_json_key': $new_json_key}}"
+
+#. module: jsonifier
+#: model:ir.model,name:jsonifier.model_ir_exports_resolver
+msgid "Export Resolver"
+msgstr "Розв’язувач експорту"
+
+#. module: jsonifier
+#: model:ir.model.fields,help:jsonifier.field_ir_exports_line__lang_id
+msgid "If set, the language in which the field is exported"
+msgstr "Якщо задано, мова експорту поля"
+
+#. module: jsonifier
+#: model:ir.model.fields,help:jsonifier.field_ir_exports__global_resolver_id
+msgid "If set, will apply the global resolver to the result"
+msgstr "Якщо задано, до результату буде застосовано глобальний resolver"
+
+#. module: jsonifier
+#: model:ir.model.fields,help:jsonifier.field_ir_exports_line__resolver_id
+msgid "If set, will apply the resolver on the field value"
+msgstr "Якщо задано, до значення поля буде застосовано resolver"
+
+#. module: jsonifier
+#: model:ir.model.fields,help:jsonifier.field_ir_exports__language_agnostic
+msgid ""
+"If set, will set the lang to False when exporting lines without lang, "
+"otherwise it uses the lang in the given context to export these fields"
+msgstr ""
+"Якщо задано, під час експорту рядків без мови значення lang буде встановлено"
+" у False; інакше для експорту цих полів використовуватиметься мова з "
+"переданого контексту."
+
+#. module: jsonifier
+#: model:ir.model.fields,help:jsonifier.field_ir_exports_line__target
+msgid ""
+"The complete path to the field where you can specify a target on the step as"
+" field:target"
+msgstr ""
+"Повний шлях до поля, де можна вказати ціль на кроці у форматі field:target"

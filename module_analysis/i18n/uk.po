@@ -194,3 +194,8 @@ msgstr "Оновити аналіз модулів"
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__xml_code_qty
 msgid "XML Code Quantity"
 msgstr "Кількість XML-коду"
+
+#. module: module_analysis
+#: model:ir.model.constraint,message:module_analysis.constraint_ir_module_author_name_uniq
+msgid "The name of the modules author should be unique per database!"
+msgstr "Ім’я автора модулів має бути унікальним у межах бази даних!"

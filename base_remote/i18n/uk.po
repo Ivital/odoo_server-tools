@@ -65,3 +65,13 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:base_remote.res_remote_form
 msgid "Remote"
 msgstr "Віддалений"
+
+#. module: base_remote
+#: model:ir.model.constraint,message:base_remote.constraint_res_remote_name_unique
+msgid "Hostname must be unique"
+msgstr "Ім’я хоста має бути унікальним"
+
+#. module: base_remote
+#: model:ir.model.fields,help:base_remote.field_res_remote__in_network
+msgid "Shows if the remote can be found through the socket"
+msgstr "Показує, чи можна знайти віддалений об’єкт через socket"

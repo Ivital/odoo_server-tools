@@ -295,3 +295,98 @@ msgstr "Встановіть 0, щоб зберігати щомісячні в�
 #: model:ir.actions.server,name:database_size.ir_cron_ir_model_size_measure_ir_actions_server
 msgid "Take model size measurements"
 msgstr "Виконувати вимірювання розміру моделі"
+
+#. module: database_size
+#: model:ir.model.fields,help:database_size.field_ir_model_size__attachment_size
+msgid ""
+"Attachment Size in MB. Includes overlap of files that are also attached to "
+"other models."
+msgstr ""
+"Розмір вкладення в МБ. Враховує дублювання файлів, які також прикріплено до "
+"інших моделей."
+
+#. module: database_size
+#: model:ir.model.fields,help:database_size.field_ir_model_size__table_size
+msgid "Bare Table Size in MB."
+msgstr "Розмір чистої таблиці в МБ."
+
+#. module: database_size
+#: model:ir.model,name:database_size.model_ir_model_index_size
+msgid "Disk space usage of a single index"
+msgstr "Використання диска одним індексом"
+
+#. module: database_size
+#: model:ir.model,name:database_size.model_ir_model_relation_size
+msgid "Disk space usage of a single many2many table"
+msgstr "Використання диска однією таблицею many2many"
+
+#. module: database_size
+#: model:ir.model,name:database_size.model_ir_model_size
+msgid "Disk space usage per model"
+msgstr "Використання диска за моделями"
+
+#. module: database_size
+#: model:ir.model.fields,help:database_size.field_ir_model_size__measurement_date
+msgid "For the exact time, check the record's write_date."
+msgstr "Точний час дивіться в write_date запису."
+
+#. module: database_size
+#: model:ir.model,name:database_size.model_ir_model_size_report
+msgid "Historical Disk space usage per model"
+msgstr "Історичне використання диска за моделями"
+
+#. module: database_size
+#: model:ir.model.fields,help:database_size.field_ir_model_size__tuples
+msgid "Rows in use, including dead tuples"
+msgstr "Рядки у використанні, включно з мертвими кортежами"
+
+#. module: database_size
+#: model:ir.model.fields,help:database_size.field_res_config_settings__database_size_retention_monthly
+msgid ""
+"The period of time (in days) during which database size measurmeents are "
+"kept of the first day of each month. If set to 0, measurements will be kept "
+"forever."
+msgstr ""
+"Період часу (у днях), протягом якого зберігаються вимірювання розміру бази "
+"даних за перший день кожного місяця. Якщо встановити 0, вимірювання "
+"зберігатимуться безстроково."
+
+#. module: database_size
+#: model:ir.model.fields,help:database_size.field_res_config_settings__database_size_retention_daily
+msgid ""
+"The period of time (in days) during which the daily database size "
+"measurements are kept. If set to 0, measurements will be kept forever."
+msgstr ""
+"Період часу (у днях), протягом якого зберігаються щоденні вимірювання "
+"розміру бази даних. Якщо встановити 0, вимірювання зберігатимуться "
+"безстроково."
+
+#. module: database_size
+#: model:ir.model.constraint,message:database_size.constraint_ir_model_size_uniq_model_measurement_date
+msgid "There is already a measurement for this model on the given date"
+msgstr "Для цієї моделі на вказану дату вже існує вимірювання"
+
+#. module: database_size
+#: model:ir.model.fields,help:database_size.field_ir_model_size__total_database_size
+msgid "Total Model Size in MB. This includes many2many tables"
+msgstr "Загальний розмір моделі в МБ. Сюди входять таблиці many2many"
+
+#. module: database_size
+#: model:ir.model.fields,help:database_size.field_ir_model_size__indexes_size
+msgid "Total Size of Indexes in MB"
+msgstr "Загальний розмір індексів у МБ"
+
+#. module: database_size
+#: model:ir.model.fields,help:database_size.field_ir_model_size__relations_size
+msgid "Total Size of many2many relations in MB"
+msgstr "Загальний розмір зв’язків many2many у МБ"
+
+#. module: database_size
+#: model:ir.model.fields,help:database_size.field_ir_model_size__total_table_size
+msgid "Total Table Size in MB. This includes indexes and toast tables"
+msgstr "Загальний розмір таблиці в МБ. Включає індекси та TOAST-таблиці"
+
+#. module: database_size
+#: model:ir.model.fields,help:database_size.field_ir_model_size__total_model_size
+msgid "Total model size in MB. This includes attachments."
+msgstr "Загальний розмір моделі в МБ. Включає вкладення."

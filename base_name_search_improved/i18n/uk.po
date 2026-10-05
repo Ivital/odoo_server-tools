@@ -483,3 +483,17 @@ msgstr "Попередження розумного пошуку"
 msgid "Smart Search can be activated in two complementary ways:"
 msgstr ""
 "Розумний пошук можна активувати двома взаємодоповнювальними способами:"
+
+#. module: base_name_search_improved
+#: model:ir.model.fields,help:base_name_search_improved.field_ir_model__add_smart_search
+msgid "Add Smart Search on search views"
+msgstr "Додати Smart Search до представлень пошуку"
+
+#. module: base_name_search_improved
+#: model:ir.model.fields,help:base_name_search_improved.field_ir_model__use_smart_name_search
+msgid ""
+"Use Smart Search for 'name_search', this will affect when searching from "
+"other records (for eg. from m2o fields"
+msgstr ""
+"Використовувати Розумний пошук для 'name_search'; це впливатиме на пошук з "
+"інших записів (наприклад, із полів m2o"

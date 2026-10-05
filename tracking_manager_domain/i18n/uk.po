@@ -22,3 +22,12 @@ msgstr "Призначені вкладення"
 #: model:ir.model.fields,field_description:tracking_manager_domain.field_ir_model_fields__tracking_domain
 msgid "Tracking Domain"
 msgstr "Домен відстеження"
+
+#. module: tracking_manager_domain
+#: model:ir.model.fields,help:tracking_manager_domain.field_ir_model_fields__tracking_domain
+msgid ""
+"Add a domain filter to only track changes when certain condition apply on "
+"the parent record."
+msgstr ""
+"Додати домен-фільтр, щоб відстежувати зміни лише за виконання певної умови в"
+" батьківському записі."

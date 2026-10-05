@@ -17,3 +17,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:scheduler_error_mailer.field_ir_cron__email_template_id
 msgid "Error E-mail Template"
 msgstr "Шаблон листа про помилку"
+
+#. module: scheduler_error_mailer
+#: model:mail.template,name:scheduler_error_mailer.scheduler_error_mailer
+msgid "Scheduler Error"
+msgstr "Помилка планувальника"
+
+#. module: scheduler_error_mailer
+#: model:ir.model.fields,help:scheduler_error_mailer.field_ir_cron__email_template_id
+msgid "Select the email template that will be sent when this scheduler fails."
+msgstr ""
+"Виберіть шаблон електронного листа, який надсилатиметься у разі помилки "
+"цього планувальника."
+
+#. module: scheduler_error_mailer
+#: model:mail.template,subject:scheduler_error_mailer.scheduler_error_mailer
+msgid "[DB {{ctx.get('dbname')}}] Scheduler '{{object.name or ''}}' FAILED"
+msgstr ""
+"[БД {{ctx.get('dbname')}}] Планувальник '{{object.name or ''}}' ЗАВЕРШИВСЯ "
+"ПОМИЛКОЮ"

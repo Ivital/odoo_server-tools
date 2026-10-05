@@ -129,3 +129,28 @@ msgstr "URL потребує оновлення"
 #: model_terms:ir.ui.view,arch_db:base_url.url_view_form
 msgid "Url rewriting edit form"
 msgstr "Форма редагування переписування URL"
+
+#. module: base_url
+#: model:ir.model,name:base_url.model_abstract_url
+msgid "Abstract Url"
+msgstr "Абстрактна URL-адреса"
+
+#. module: base_url
+#: model:ir.model.constraint,message:base_url.constraint_url_url_unique_key_per_referential_per_lang
+msgid "Already exists in database"
+msgstr "Уже існує в базі даних"
+
+#. module: base_url
+#: model:res.groups,name:base_url.group_edit_url
+msgid "Edit url"
+msgstr "Редагувати URL"
+
+#. module: base_url
+#: model:ir.model.fields,help:base_url.field_url_url__res_id
+msgid "ID of the target record in the database"
+msgstr "ID цільового запису в базі даних"
+
+#. module: base_url
+#: model:ir.model.fields,help:base_url.field_url_url__redirect
+msgid "If tick this url is a redirection to the new url"
+msgstr "Якщо позначено, ця URL-адреса перенаправляє на нову URL-адресу"
