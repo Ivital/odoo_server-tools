@@ -395,3 +395,91 @@ msgstr "Розумний пошук за назвою"
 #: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
 msgid "Smart Search Fields"
 msgstr "Поля розумного пошуку"
+
+#. module: base_name_search_improved
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
+msgid ""
+"<b>IMPORTANT:</b> Please note that enabling smart search may affect the "
+"performance of searches and the system in general."
+msgstr ""
+"<b>ВАЖЛИВО:</b> зверніть увагу, що ввімкнення розумного пошуку може вплинути"
+" на швидкодію пошуку та системи загалом."
+
+#. module: base_name_search_improved
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
+msgid ""
+"<b>Smart Name Search</b>: when searching for a record from another record "
+"through the m2o/m2m widgets, for example when adding a Product in a Sales "
+"Order Line or when selecting a Contact in an Invoice."
+msgstr ""
+"<b>Розумний пошук за назвою</b>: під час пошуку запису з іншого запису через"
+" віджети m2o/m2m, наприклад при додаванні товару до рядка замовлення на "
+"продаж або виборі контакту в рахунку."
+
+#. module: base_name_search_improved
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
+msgid ""
+"<b>Smart Search Fields</b>. You can define a set of fields by which we want "
+"to search"
+msgstr ""
+"<b>Поля розумного пошуку</b>. Можна визначити набір полів, за якими "
+"виконуватиметься пошук"
+
+#. module: base_name_search_improved
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
+msgid ""
+"<b>Smart Search</b>: when searching in list, kanban and other views, the "
+"first option will be to search using \"Smart Search\""
+msgstr ""
+"<b>Розумний пошук</b>: під час пошуку у списках, kanban та інших "
+"представленнях першим варіантом буде пошук через \"Розумний пошук\""
+
+#. module: base_name_search_improved
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
+msgid ""
+"Define a <b>Smart Search Domain</b> (for example, only show internal users "
+"and not portal users)"
+msgstr ""
+"Визначте <b>домен розумного пошуку</b> (наприклад, показувати лише "
+"внутрішніх користувачів, а не портальних)"
+
+#. module: base_name_search_improved
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
+msgid ""
+"If \"Smart Search\" has been activated, searches will have a more \"relaxed\" behaviour. Odoo natively searches for records that include the phrases entered as they are entered. When activating this option it will search for records that contain entered words regardless of the order in which they are entered. For example if we search for a Contact \"Fred Flinstone\", Odoo would by default only return those records that contain exactly that phrase. With Smart Search active any record containing the words \"Fred\" and \"Flinstone\" will be returned.\n"
+"                        <br/>\n"
+"                        <br/>\n"
+"\n"
+"                        By enabling Smart Search you can also add configure these two optional behaviours:"
+msgstr ""
+"Якщо активовано «Розумний пошук», пошук працюватиме більш «гнучко». За замовчуванням Odoo шукає записи, що містять введені фрази саме в тому вигляді, як їх введено. Після активації цієї опції Odoo шукатиме записи, що містять введені слова незалежно від їх порядку. Наприклад, якщо шукати контакт «Fred Flinstone», за замовчуванням Odoo поверне лише записи, що містять саме цю фразу. Коли «Розумний пошук» активний, буде повернено будь-який запис, що містить слова «Fred» і «Flinstone».\n"
+"                        <br/>\n"
+"                        <br/>\n"
+"\n"
+"                        Увімкнувши «Розумний пошук», можна також налаштувати дві додаткові поведінки:"
+
+#. module: base_name_search_improved
+#: model:ir.model.fields,field_description:base_name_search_improved.field_ir_model__use_smart_name_search
+msgid "Smart Name Search Enabled?"
+msgstr "Увімкнено розумний пошук за назвою?"
+
+#. module: base_name_search_improved
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
+msgid "Smart Search (search view)"
+msgstr "Розумний пошук (пошукове подання)"
+
+#. module: base_name_search_improved
+#: model:ir.model.fields,field_description:base_name_search_improved.field_ir_model__name_search_domain
+msgid "Smart Search Domain"
+msgstr "Домен розумного пошуку"
+
+#. module: base_name_search_improved
+#: model:ir.model.fields,field_description:base_name_search_improved.field_ir_model__smart_search_warning
+msgid "Smart Search Warning"
+msgstr "Попередження розумного пошуку"
+
+#. module: base_name_search_improved
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
+msgid "Smart Search can be activated in two complementary ways:"
+msgstr ""
+"Розумний пошук можна активувати двома взаємодоповнювальними способами:"

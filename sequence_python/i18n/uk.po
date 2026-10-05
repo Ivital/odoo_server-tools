@@ -37,3 +37,67 @@ msgstr "Допомога з виразами Python"
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
 msgid "number"
 msgstr "номер"
+
+#. module: sequence_python
+#: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
+msgid "<code>number</code>: The next number of the sequence (integer)"
+msgstr "<code>number</code>: наступний номер послідовності (ціле число)"
+
+#. module: sequence_python
+#: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
+msgid ""
+"<code>number_padded</code>: Padded string of the next number of the sequence"
+msgstr ""
+"<code>number_padded</code>: рядок наступного номера послідовності з "
+"доповненням"
+
+#. module: sequence_python
+#: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
+msgid ""
+"<code>random</code>: The Python random module, eg. to use "
+"<code>random.randint(0, 9)</code>"
+msgstr ""
+"<code>random</code>: модуль Python random, наприклад для використання "
+"<code>random.randint(0, 9)</code>"
+
+#. module: sequence_python
+#: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
+msgid "<code>sequence</code>: Odoo record of the sequence being used"
+msgstr "<code>sequence</code>: запис Odoo використовуваної послідовності"
+
+#. module: sequence_python
+#: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
+msgid ""
+"<code>string</code>: The Python string module, eg. to use "
+"<code>random.choices(string.ascii_letters + string.digits, k=4)</code>"
+msgstr ""
+"<code>string</code>: модуль Python string, наприклад для використання "
+"<code>random.choices(string.ascii_letters + string.digits, k=4)</code>"
+
+#. module: sequence_python
+#: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
+msgid ""
+"<code>uuid</code>: The Python uuid module, eg. to use "
+"<code>uuid.uuid4()</code>"
+msgstr ""
+"<code>uuid</code>: модуль Python uuid, наприклад для використання "
+"<code>uuid.uuid4()</code>"
+
+#. module: sequence_python
+#: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
+msgid "Aside from this, you may use several"
+msgstr "Крім цього, можна використовувати кілька"
+
+#. module: sequence_python
+#: model:ir.model.fields,field_description:sequence_python.field_ir_sequence__python_code
+msgid "Python expression"
+msgstr "Вираз Python"
+
+#. module: sequence_python
+#: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
+msgid ""
+"The expression you type here will be evaluated as the next number. The "
+"following variables can be used:"
+msgstr ""
+"Введений тут вираз буде обчислено як наступний номер. Можна використовувати "
+"такі змінні:"

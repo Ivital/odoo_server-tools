@@ -149,3 +149,13 @@ msgstr "Еталонне значення"
 #: model_terms:ir.ui.view,arch_db:base_time_parameter.base_time_parameter_view_form
 msgid "Time Parameter"
 msgstr "Параметр часу"
+
+#. module: base_time_parameter
+#: model:ir.model.fields.selection,name:base_time_parameter.selection__base_time_parameter__type__boolean
+msgid "Boolean (True/False)"
+msgstr "Логічне (Так/Ні)"
+
+#. module: base_time_parameter
+#: model:ir.model.fields.selection,name:base_time_parameter.selection__base_time_parameter__type__float
+msgid "Floating point number"
+msgstr "Число з плаваючою крапкою"

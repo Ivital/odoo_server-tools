@@ -205,3 +205,93 @@ msgstr "Загальний розмір моделі"
 #: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__total_table_size
 msgid "Total Table Size"
 msgstr "Загальний розмір таблиці"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__diff_total_database_size
+msgid "Change in Total Database Size"
+msgstr "Зміна загального розміру бази даних"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__diff_total_model_size
+msgid "Change in Total Model Size"
+msgstr "Зміна загального розміру моделі"
+
+#. module: database_size
+#: model:ir.actions.act_window,name:database_size.ir_model_size_report_action
+msgid "Compare Database Size per Model"
+msgstr "Порівняти розмір бази даних за моделями"
+
+#. module: database_size
+#: model:ir.actions.act_window,name:database_size.ir_model_size_action
+msgid "Database Size per Model"
+msgstr "Розмір бази даних за моделями"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__historical_attachment_size
+msgid "Historical Attachment Size"
+msgstr "Історичний розмір вкладень"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__historical_table_size
+msgid "Historical Bare Table Size"
+msgstr "Історичний розмір таблиці без індексів"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__historical_measurement_date
+msgid "Historical Date of Measurement"
+msgstr "Історична дата вимірювання"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__historical_tuples
+msgid "Historical Estimated Rows"
+msgstr "Історичні оціночні рядки"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__historical_indexes_size
+msgid "Historical Index Size"
+msgstr "Історичний розмір індексу"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__historical_relations_size
+msgid "Historical Many2many Tables Size"
+msgstr "Історичний розмір таблиць Many2many"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__historical_total_database_size
+msgid "Historical Total Database Size"
+msgstr "Історичний загальний розмір бази даних"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__historical_total_model_size
+msgid "Historical Total Model Size"
+msgstr "Історичний загальний розмір моделі"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__historical_total_table_size
+msgid "Historical Total Table Size"
+msgstr "Історичний загальний розмір таблиці"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_res_config_settings__database_size_retention_daily
+msgid "Keep Daily Measurements for"
+msgstr "Зберігати щоденні вимірювання для"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_res_config_settings__database_size_retention_monthly
+msgid "Keep Monthly Measurements for"
+msgstr "Зберігати щомісячні вимірювання для"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_res_config_settings__database_size_purge
+msgid "Purge Older Model Size Measurements"
+msgstr "Очистити старі вимірювання розміру моделі"
+
+#. module: database_size
+#: model_terms:ir.ui.view,arch_db:database_size.res_config_settings_view_form
+msgid "Set to 0 to keep monthly measurements forever."
+msgstr "Встановіть 0, щоб зберігати щомісячні вимірювання назавжди."
+
+#. module: database_size
+#: model:ir.actions.server,name:database_size.ir_cron_ir_model_size_measure_ir_actions_server
+msgid "Take model size measurements"
+msgstr "Виконувати вимірювання розміру моделі"

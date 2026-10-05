@@ -365,3 +365,61 @@ msgstr "чернетка"
 #: model:ir.actions.act_window,name:upgrade_analysis.action_upgrade_record_tree
 msgid "upgrade Records"
 msgstr "Записи оновлення"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_install_wizard_form
+msgid "All Odoo SA Modules"
+msgstr "Усі модулі Odoo SA"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_install_wizard_form
+msgid "All Other Modules"
+msgstr "Усі інші модулі"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__config_id
+msgid "Comparison Config"
+msgstr "Налаштування порівняння"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__model_original_module
+msgid "Model Original Module"
+msgstr "Початковий модуль моделі"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_generate_record_wizard_form
+msgid "Modules initialized and record created"
+msgstr "Модулі ініціалізовано та запис створено"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_analysis_form
+msgid "Perform Analysis"
+msgstr "Виконати аналіз"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_install_wizard_form
+msgid "The modules have been installed successfuly"
+msgstr "Модулі успішно встановлено"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_install_wizard_form
+msgid ""
+"This will install the selected modules on the database. Do not continue if "
+"you use this database in production."
+msgstr ""
+"Це встановить вибрані модулі в базі даних. Не продовжуйте, якщо ця база "
+"використовується у виробничому середовищі."
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_generate_record_wizard_form
+msgid ""
+"This will reinitialize all the modules installed on this database. Do not "
+"continue if you use this database in production."
+msgstr ""
+"Це повторно ініціалізує всі модулі, встановлені в цій базі даних. Не "
+"продовжуйте, якщо база використовується у виробничому середовищі."
+
+#. module: upgrade_analysis
+#: model:ir.actions.act_window,name:upgrade_analysis.action_upgrade_comparison_config_tree
+msgid "upgrade Comparison Configs"
+msgstr "Конфігурації порівняння оновлення"

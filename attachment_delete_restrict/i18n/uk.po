@@ -62,3 +62,48 @@ msgstr ""
 #: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__res_config_settings__global_restrict_delete_attachment__owner
 msgid "Owner: Only creator and admin can delete them"
 msgstr "Власник: видаляти можуть лише автор і адміністратор"
+
+#. module: attachment_delete_restrict
+#: model_terms:ir.ui.view,arch_db:attachment_delete_restrict.res_config_settings_view_form
+msgid "<span>Authorized Groups:</span>"
+msgstr "<span>Авторизовані групи:</span>"
+
+#. module: attachment_delete_restrict
+#: model_terms:ir.ui.view,arch_db:attachment_delete_restrict.res_config_settings_view_form
+msgid "<span>Authorized Users:</span>"
+msgstr "<span>Авторизовані користувачі:</span>"
+
+#. module: attachment_delete_restrict
+#: model_terms:ir.ui.view,arch_db:attachment_delete_restrict.res_config_settings_view_form
+msgid "Authorized Groups and Users"
+msgstr "Авторизовані групи та користувачі"
+
+#. module: attachment_delete_restrict
+#: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_model__restrict_delete_attachment
+msgid "Restrict Attachment Deletion"
+msgstr "Обмежити видалення вкладень"
+
+#. module: attachment_delete_restrict
+#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_config_settings__global_restrict_delete_attachment
+msgid "Restrict Delete Attachments"
+msgstr "Обмежити видалення вкладень"
+
+#. module: attachment_delete_restrict
+#: model_terms:ir.ui.view,arch_db:attachment_delete_restrict.res_config_settings_view_form
+msgid "Restrict Deletion on Attachments"
+msgstr "Обмежити видалення вкладень"
+
+#. module: attachment_delete_restrict
+#: model_terms:ir.ui.view,arch_db:attachment_delete_restrict.res_config_settings_view_form
+msgid "Restrict Deletion on attachment"
+msgstr "Обмежити видалення вкладення"
+
+#. module: attachment_delete_restrict
+#: model_terms:ir.ui.view,arch_db:attachment_delete_restrict.res_config_settings_view_form
+msgid "Select default level of delete restriction on attachments"
+msgstr "Виберіть рівень обмеження видалення вкладень за замовчуванням"
+
+#. module: attachment_delete_restrict
+#: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__ir_model__restrict_delete_attachment__default
+msgid "Use global configuration"
+msgstr "Використовувати глобальну конфігурацію"

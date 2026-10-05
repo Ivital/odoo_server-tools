@@ -101,3 +101,28 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:attachment_queue_email.view_fetchmail_attachment_condition_form
 msgid "Requirements"
 msgstr "Вимоги"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,field_description:attachment_queue_email.field_fetchmail_server__attachment_condition_ids
+msgid "Attachment Condition"
+msgstr "Умова вкладення"
+
+#. module: attachment_queue_email
+#: model_terms:ir.ui.view,arch_db:attachment_queue_email.view_fetchmail_attachment_condition_form
+msgid "Attachment Condition requirements"
+msgstr "Вимоги до умов вкладень"
+
+#. module: attachment_queue_email
+#: model_terms:ir.ui.view,arch_db:attachment_queue_email.view_email_server_form
+msgid "Attachment Conditions"
+msgstr "Умови вкладень"
+
+#. module: attachment_queue_email
+#: model_terms:ir.ui.view,arch_db:attachment_queue_email.view_fetchmail_attachment_condition_form
+msgid "Attachment process"
+msgstr "Обробка вкладення"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,field_description:attachment_queue_email.field_attachment_queue__fetchmail_attachment_condition_id
+msgid "FetchMail condition"
+msgstr "Умова FetchMail"

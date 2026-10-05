@@ -47,7 +47,7 @@ msgstr "Автоматичні резервні копії"
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "Automatic backups of the database can be scheduled as follows:"
-msgstr ""
+msgstr "Автоматичне резервне копіювання бази даних можна запланувати так:"
 
 #. module: auto_backup
 #: model:mail.message.subtype,name:auto_backup.mail_message_subtype_failure
@@ -79,7 +79,7 @@ msgstr ""
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "Basic backup configuration"
-msgstr ""
+msgstr "Базова конфігурація резервного копіювання"
 
 #. module: auto_backup
 #: model:ir.model.constraint,message:auto_backup.constraint_db_backup_name_unique
@@ -160,7 +160,7 @@ msgstr "Виконати резервне копіювання"
 #. module: auto_backup
 #: model:ir.actions.server,name:auto_backup.action_server_backup
 msgid "Execute backup(s)"
-msgstr ""
+msgstr "Виконати резервні копії"
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__folder
@@ -181,6 +181,7 @@ msgstr "Підписники (контрагенти)"
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "Go to Settings / Technical / Automation / Scheduled Actions."
 msgstr ""
+"Перейдіть у Налаштування / Технічні / Автоматизація / Заплановані дії."
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__has_message
@@ -205,12 +206,12 @@ msgstr "ID"
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__message_is_follower
@@ -265,12 +266,12 @@ msgstr "Кількість помилок"
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Кількість повідомлень, що потребують дії"
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Кількість повідомлень із помилкою доставки"
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_private_key
@@ -282,12 +283,12 @@ msgstr ""
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__sftp_private_key
 msgid "Private key location"
-msgstr ""
+msgstr "Розташування приватного ключа"
 
 #. module: auto_backup
 #: model:ir.model.fields.selection,name:auto_backup.selection__db_backup__method__sftp
 msgid "Remote SFTP server"
-msgstr ""
+msgstr "Віддалений SFTP-сервер"
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__sftp_password
@@ -312,7 +313,7 @@ msgstr "Налаштування SFTP"
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "Search the action named 'Backup scheduler'."
-msgstr ""
+msgstr "Знайдіть дію «Backup scheduler»."
 
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
@@ -320,6 +321,8 @@ msgid ""
 "Set the scheduler to active and fill in how often you want backups "
 "generated."
 msgstr ""
+"Увімкніть планувальник і вкажіть, як часто потрібно створювати резервні "
+"копії."
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__smart_search
@@ -334,7 +337,7 @@ msgstr ""
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "Test SFTP Connection"
-msgstr ""
+msgstr "Перевірити SFTP-з’єднання"
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_host
@@ -367,11 +370,13 @@ msgid ""
 "Use SFTP with caution! This writes files to external servers under the path "
 "you specify."
 msgstr ""
+"Використовуйте SFTP обережно! Це записує файли на зовнішні сервери за "
+"вказаним шляхом."
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup__sftp_user
 msgid "Username in the SFTP Server"
-msgstr ""
+msgstr "Ім’я користувача на SFTP-сервері"
 
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
@@ -386,7 +391,7 @@ msgstr "Повідомлення вебсайту"
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Історія комунікації через вебсайт"
 
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
@@ -396,7 +401,7 @@ msgstr ""
 #. module: auto_backup
 #: model:ir.model.fields.selection,name:auto_backup.selection__db_backup__backup_format__dump
 msgid "pg_dump custom format (without filestore)"
-msgstr ""
+msgstr "pg_dump custom format (без filestore)"
 
 #. module: auto_backup
 #: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
@@ -406,7 +411,7 @@ msgstr ""
 #. module: auto_backup
 #: model:ir.model.fields.selection,name:auto_backup.selection__db_backup__backup_format__zip
 msgid "zip (includes filestore)"
-msgstr ""
+msgstr "zip (містить filestore)"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

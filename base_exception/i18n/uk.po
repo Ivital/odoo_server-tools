@@ -21,7 +21,7 @@ msgstr ""
 #. module: base_exception
 #: model_terms:ir.ui.view,arch_db:base_exception.view_exception_rule_form
 msgid "<code>self</code>: Record on which the rule is evaluated."
-msgstr ""
+msgstr "<code>self</code>: запис, для якого оцінюється правило."
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__active
@@ -41,7 +41,7 @@ msgstr "Архівовано"
 #. module: base_exception
 #: model_terms:ir.ui.view,arch_db:base_exception.view_exception_rule_form
 msgid "As well as all the libraries provided in safe_eval."
-msgstr ""
+msgstr "А також усі бібліотеки, надані в safe_eval."
 
 #. module: base_exception
 #: model:ir.model.fields.selection,name:base_exception.selection__exception_rule__exception_type__by_domain
@@ -103,6 +103,8 @@ msgid ""
 "Enter Python code here. Help about Python expression is available in the "
 "help tab of this document."
 msgstr ""
+"Введіть код Python тут. Довідка про вираз Python доступна на вкладці довідки"
+" цього документа."
 
 #. module: base_exception
 #. odoo-python
@@ -142,7 +144,7 @@ msgstr ""
 #. module: base_exception
 #: model_terms:ir.ui.view,arch_db:base_exception.view_exception_rule_form
 msgid "Exception Rule Setup"
-msgstr ""
+msgstr "Налаштування правила винятку"
 
 #. module: base_exception
 #: model:ir.actions.act_window,name:base_exception.action_exception_rule_list
@@ -241,7 +243,7 @@ msgstr "Невирішені винятки для опрацювання"
 #. module: base_exception
 #: model_terms:ir.ui.view,arch_db:base_exception.view_exception_rule_confirm
 msgid "Outstanding exceptions to manager"
-msgstr ""
+msgstr "Невирішені винятки для керівника"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__code
@@ -292,7 +294,7 @@ msgstr ""
 #. module: base_exception
 #: model_terms:ir.ui.view,arch_db:base_exception.view_exception_rule_form
 msgid "To block the exception use: <code>failed = True</code>"
-msgstr ""
+msgstr "Щоб заблокувати виняток, використовуйте: <code>failed = True</code>"
 
 #. module: base_exception
 #: model_terms:ir.ui.view,arch_db:base_exception.view_exception_rule_form
@@ -300,6 +302,8 @@ msgid ""
 "Various fields may use Python code or Python expressions. The following "
 "variables can be used:"
 msgstr ""
+"У різних полях можна використовувати код або вирази Python. Доступні такі "
+"змінні:"
 
 #. module: base_exception
 #: model:ir.model.fields,help:base_exception.field_exception_rule__is_blocking

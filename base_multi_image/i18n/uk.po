@@ -43,7 +43,7 @@ msgstr "Вкладення"
 #. module: base_multi_image
 #: model_terms:ir.actions.act_window,help:base_multi_image.image_action
 msgid "Click to add an image attached to an specific record."
-msgstr ""
+msgstr "Натисніть, щоб додати зображення, прикріплене до конкретного запису."
 
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__comments
@@ -115,7 +115,7 @@ msgstr "Віддалена URL зображення"
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__file_db_store
 msgid "Image stored in database"
-msgstr ""
+msgstr "Зображення зберігається в базі даних"
 
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__name
@@ -212,7 +212,7 @@ msgstr "Зображення товарів"
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__owner_ref_id
 msgid "Referenced Owner"
-msgstr ""
+msgstr "Власник посилання"
 
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__sequence
@@ -294,3 +294,13 @@ msgstr "Зображення 256"
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__image_512
 msgid "Image 512"
 msgstr "Зображення 512"
+
+#. module: base_multi_image
+#: model_terms:ir.ui.view,arch_db:base_multi_image.image_form_view
+msgid "Basic Information"
+msgstr "Основна інформація"
+
+#. module: base_multi_image
+#: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__attachment_id
+msgid "Image stored in Attachment"
+msgstr "Зображення зберігається у вкладенні"

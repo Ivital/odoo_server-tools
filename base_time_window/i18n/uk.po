@@ -98,3 +98,8 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:base_time_window.field_time_window_mixin__time_window_weekday_ids
 msgid "Time Window Weekday"
 msgstr "День тижня часового вікна"
+
+#. module: base_time_window
+#: model:ir.model.constraint,message:base_time_window.constraint_time_weekday_name_uniq
+msgid "Name must be unique"
+msgstr "Назва має бути унікальною"

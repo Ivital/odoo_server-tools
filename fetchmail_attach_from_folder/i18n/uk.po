@@ -274,3 +274,88 @@ msgstr "або"
 #: model_terms:ir.ui.view,arch_db:fetchmail_attach_from_folder.view_email_server_form
 msgid "to,from"
 msgstr "до,від"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server__folders_available
+msgid "Available folders"
+msgstr "Доступні папки"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__delete_matching
+msgid "Delete Matched Emails"
+msgstr "Видалити зіставлені листи"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields.selection,name:fetchmail_attach_from_folder.selection__fetchmail_server_folder__match_algorithm__email_domain
+msgid "Domain of Email Address"
+msgstr "Домен адреси електронної пошти"
+
+#. module: fetchmail_attach_from_folder
+#: model_terms:ir.ui.view,arch_db:fetchmail_attach_from_folder.view_email_server_form
+msgid "Email Post-Processing Actions"
+msgstr "Дії після обробки електронної пошти"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields.selection,name:fetchmail_attach_from_folder.selection__fetchmail_server_folder__match_algorithm__email_exact
+msgid "Exact Email Address"
+msgstr "Точна електронна адреса"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__fetch_last_day_only
+msgid "Fetch Last 24 Hours Only"
+msgstr "Отримувати лише останні 24 години"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__fetch_unseen_only
+msgid "Fetch Unseen Only"
+msgstr "Отримувати лише непрочитані"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__path
+msgid "Fetch from Folder"
+msgstr "Отримати з папки"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__flag_nonmatching
+msgid "Flag Non-Matching Emails"
+msgstr "Позначати електронні адреси, що не збігаються"
+
+#. module: fetchmail_attach_from_folder
+#: model_terms:ir.ui.view,arch_db:fetchmail_attach_from_folder.view_email_server_form
+msgid "Folders available on server"
+msgstr "Каталоги, доступні на сервері"
+
+#. module: fetchmail_attach_from_folder
+#: model_terms:ir.ui.view,arch_db:fetchmail_attach_from_folder.view_email_server_form
+msgid "Folders to monitor"
+msgstr "Папки для моніторингу"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields.selection,name:fetchmail_attach_from_folder.selection__fetchmail_server_folder__seen__on_fetch
+msgid "Immediately on Fetch"
+msgstr "Одразу після отримання"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__seen
+msgid "Mark email as seen"
+msgstr "Позначити лист як прочитаний"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__match_algorithm
+msgid "Matching Algorithm"
+msgstr "Алгоритм зіставлення"
+
+#. module: fetchmail_attach_from_folder
+#: model_terms:ir.ui.view,arch_db:fetchmail_attach_from_folder.view_email_server_form
+msgid "Model Post-Processing Actions"
+msgstr "Дії після обробки моделі"
+
+#. module: fetchmail_attach_from_folder
+#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server__folders_only
+msgid "Process Only Specified Folders"
+msgstr "Обробляти лише вказані каталоги"
+
+#. module: fetchmail_attach_from_folder
+#: model_terms:ir.ui.view,arch_db:fetchmail_attach_from_folder.view_email_server_form
+msgid "Reset Confirmation"
+msgstr "Скинути підтвердження"

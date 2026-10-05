@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_force_record_noupdate.field_ir_model__force_noupdate
 msgid "Force No-Update"
 msgstr "Примусово без оновлення"
+
+#. module: base_force_record_noupdate
+#: model:ir.actions.server,name:base_force_record_noupdate.action_run_ir_action_todo
+msgid "Toggle Force Noupdate"
+msgstr "Перемкнути примусове noupdate"

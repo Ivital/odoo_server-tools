@@ -69,3 +69,28 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:mail_template_attachment_per_lang.field_ir_attachment_language__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: mail_template_attachment_per_lang
+#: model:ir.model.fields,field_description:mail_template_attachment_per_lang.field_mail_template__ir_attachment_language_method
+msgid "Language Attachment Method"
+msgstr "Метод вкладення мови"
+
+#. module: mail_template_attachment_per_lang
+#: model_terms:ir.ui.view,arch_db:mail_template_attachment_per_lang.mail_template_form
+msgid "Language Attachments"
+msgstr "Вкладення мов"
+
+#. module: mail_template_attachment_per_lang
+#: model:ir.model.fields,field_description:mail_template_attachment_per_lang.field_mail_template__ir_attachment_language_ids
+msgid "Language Dependent Attachments"
+msgstr "Мовозалежні вкладення"
+
+#. module: mail_template_attachment_per_lang
+#: model:ir.model.fields.selection,name:mail_template_attachment_per_lang.selection__mail_template__ir_attachment_language_method__partner_lang
+msgid "Partner Language"
+msgstr "Мова партнера"
+
+#. module: mail_template_attachment_per_lang
+#: model:ir.model.fields.selection,name:mail_template_attachment_per_lang.selection__mail_template__ir_attachment_language_method__template_lang
+msgid "Template Language"
+msgstr "Мова шаблону"

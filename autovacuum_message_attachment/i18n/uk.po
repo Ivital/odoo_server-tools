@@ -554,3 +554,33 @@ msgstr "Підтипи повідомлень"
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__retention_time
 msgid "Retention Time"
 msgstr "Час зберігання"
+
+#. module: autovacuum_message_attachment
+#: model:ir.actions.server,name:autovacuum_message_attachment.ir_cron_vacuum_attachment_ir_actions_server
+msgid "AutoVacuum Attachments"
+msgstr "Автоочищення вкладень"
+
+#. module: autovacuum_message_attachment
+#: model:ir.actions.server,name:autovacuum_message_attachment.ir_cron_vacuum_message_ir_actions_server
+msgid "AutoVacuum Mails and Messages"
+msgstr "Автоочищення листів і повідомлень"
+
+#. module: autovacuum_message_attachment
+#: model_terms:ir.ui.view,arch_db:autovacuum_message_attachment.vacuum_rule_form_view
+msgid "Message Vacuum Rule"
+msgstr "Правило очищення повідомлень"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__model_filter_domain
+msgid "Model Filter Domain"
+msgstr "Домен фільтра моделі"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields.selection,name:autovacuum_message_attachment.selection__vacuum_rule__message_type__notification
+msgid "System notification"
+msgstr "Системне сповіщення"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields.selection,name:autovacuum_message_attachment.selection__vacuum_rule__message_type__user_notification
+msgid "User Specific Notification"
+msgstr "Специфічне сповіщення користувача"

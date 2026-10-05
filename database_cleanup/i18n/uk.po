@@ -83,7 +83,7 @@ msgstr "Створити відсутні індекси"
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.cleanup_create_indexes_line_view_tree
 msgid "Create this index"
-msgstr ""
+msgstr "Створити цей індекс"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line__purged
@@ -265,7 +265,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_field__model_name
 msgid "Model Technical Name"
-msgstr ""
+msgstr "Технічна назва моделі"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_ir_model
@@ -340,7 +340,7 @@ msgstr ""
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.form_purge_wizard
 msgid "Nothing found to clean up."
-msgstr ""
+msgstr "Нічого для очищення не знайдено."
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_column_line
@@ -395,7 +395,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_data
 msgid "Purge data entries that refer to missing resources"
-msgstr ""
+msgstr "Очистити записи даних, що посилаються на відсутні ресурси"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_field
@@ -471,12 +471,12 @@ msgstr "Очистити таблиці"
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.purge_column_line_tree
 msgid "Purge this column"
-msgstr ""
+msgstr "Очистити цей стовпець"
 
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.purge_field_line_tree
 msgid "Purge this field"
-msgstr ""
+msgstr "Очистити це поле"
 
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.purge_menu_line_tree
@@ -486,22 +486,22 @@ msgstr "Очистити це меню"
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.purge_model_line_tree
 msgid "Purge this model"
-msgstr ""
+msgstr "Очистити цю модель"
 
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.purge_module_line_tree
 msgid "Purge this module"
-msgstr ""
+msgstr "Очистити цей модуль"
 
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.tree_purge_line
 msgid "Purge this record"
-msgstr ""
+msgstr "Очистити цей запис"
 
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.purge_table_line_tree
 msgid "Purge this table"
-msgstr ""
+msgstr "Очистити цю таблицю"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line__purged

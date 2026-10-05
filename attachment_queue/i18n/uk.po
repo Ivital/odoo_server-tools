@@ -399,3 +399,76 @@ msgstr "Збережена назва файлу"
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Filter on my documents"
+msgstr "Фільтр моїх документів"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_reschedule_attachment
+msgid "Requeue Attachments"
+msgstr "Повторно поставити вкладення в чергу"
+
+#. module: attachment_queue
+#: model:ir.actions.act_window,name:attachment_queue.action_reschedule_attachment
+msgid "Reschedule Attachment"
+msgstr "Перепланувати вкладення"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_reschedule_attachment
+msgid "The selected attachments will be rescheduled."
+msgstr "Вибрані вкладення буде переплановано."
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

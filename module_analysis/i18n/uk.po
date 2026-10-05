@@ -144,3 +144,53 @@ msgstr "Домен модуля"
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__installed_module_qty
 msgid "Modules Quantity"
 msgstr "Кількість модулів"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__module_type_id
+msgid "Analysed Module Type"
+msgstr "Тип аналізованого модуля"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__css_code_qty
+msgid "CSS Code Quantity"
+msgstr "Кількість CSS-коду"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__installed_module_ids
+msgid "Installed Modules"
+msgstr "Встановлені модулі"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__installed_module_qty
+msgid "Installed Modules Quantity"
+msgstr "Кількість встановлених модулів"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__python_code_qty
+msgid "Python Code Quantity"
+msgstr "Кількість Python-коду"
+
+#. module: module_analysis
+#: model_terms:ir.ui.view,arch_db:module_analysis.view_ir_module_module_form
+msgid "Refresh Code Analysis"
+msgstr "Оновити аналіз коду"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__scss_code_qty
+msgid "SCSS Code Quantity"
+msgstr "Кількість SCSS-коду"
+
+#. module: module_analysis
+#: model_terms:ir.ui.view,arch_db:module_analysis.view_ir_module_module_form
+msgid "Type and Authors"
+msgstr "Тип і автори"
+
+#. module: module_analysis
+#: model:ir.actions.server,name:module_analysis.cron_module_analysis_ir_actions_server
+msgid "Update Module Analysis"
+msgstr "Оновити аналіз модулів"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__xml_code_qty
+msgid "XML Code Quantity"
+msgstr "Кількість XML-коду"

@@ -116,3 +116,13 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: jsonifier
+#: model:ir.model.fields,field_description:jsonifier.field_ir_exports__global_resolver_id
+msgid "Custom global resolver"
+msgstr "Користувацький глобальний резолвер"
+
+#. module: jsonifier
+#: model:ir.model.fields,field_description:jsonifier.field_ir_exports__language_agnostic
+msgid "Language Agnostic"
+msgstr "Незалежний від мови"

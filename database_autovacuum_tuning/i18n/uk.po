@@ -66,3 +66,46 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:database_autovacuum_tuning.field_database_autovacuum_tuning__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_database_autovacuum_tuning__analyze_threshold
+msgid "Analyze Threshold"
+msgstr "Поріг аналізу"
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_res_config_settings__autovacuum_vacuum_analyze_max_threshold
+msgid "Autovacuum Vacuum Analyze Max Threshold"
+msgstr "Максимальний поріг VACUUM ANALYZE автоочищення"
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_res_config_settings__autovacuum_vacuum_max_threshold
+msgid "Autovacuum Vacuum Max Threshold"
+msgstr "Максимальний поріг VACUUM автоочищення"
+
+#. module: database_autovacuum_tuning
+#: model:ir.actions.act_window,name:database_autovacuum_tuning.action_model_autovacuum_tuning
+msgid "Database Vacuum Tuning"
+msgstr "Налаштування VACUUM бази даних"
+
+#. module: database_autovacuum_tuning
+#: model_terms:ir.ui.view,arch_db:database_autovacuum_tuning.res_config_settings_view_form
+msgid ""
+"The maximum number of tuples that can be updated or deleted before a vacuum "
+"analyze is triggered."
+msgstr ""
+"Максимальна кількість кортежів, які можна оновити або видалити до запуску "
+"vacuum analyze."
+
+#. module: database_autovacuum_tuning
+#: model_terms:ir.ui.view,arch_db:database_autovacuum_tuning.res_config_settings_view_form
+msgid ""
+"The maximum number of tuples that can be updated or deleted before a vacuum "
+"is triggered."
+msgstr ""
+"Максимальна кількість кортежів, які можна оновити або видалити до запуску "
+"vacuum."
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_database_autovacuum_tuning__vacuum_threshold
+msgid "Vacuum Threshold"
+msgstr "Поріг очищення"

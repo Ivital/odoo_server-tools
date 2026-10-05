@@ -439,3 +439,423 @@ msgstr "Шаблон XLSX"
 #: model_terms:ir.ui.view,arch_db:excel_import_export.xlsx_report_view
 msgid "or"
 msgstr "або"
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_export_xlsx_wizard__state
+#: model:ir.model.fields,help:excel_import_export.field_import_xlsx_wizard__state
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_report__state
+msgid ""
+"* Choose: wizard show in user selection mode\n"
+"* Get: wizard show results from user action"
+msgstr ""
+"* Вибрати: майстер відображається в режимі вибору користувача\n"
+"* Отримати: майстер показує результати дії користувача"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "<b>Cell</b>: Location of data in excel sheet (e.g., A1, B1, ...)"
+msgstr "<b>Комірка</b>: місце даних у таблиці Excel (напр., A1, B1, ...)"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<b>Continue</b>: If not selected, start rolling with specified first row "
+"cells. If selected, continue from previous one2many field"
+msgstr ""
+"<b>Продовжити</b>: якщо не вибрано, почати розгортання із заданих клітинок "
+"першого рядка. Якщо вибрано, продовжити з попереднього поля one2many"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<b>Extend</b>: If selected, extend one row after one data row in order to "
+"preserve the sum line"
+msgstr ""
+"<b>Розширити</b>: якщо вибрано, розширювати один рядок після одного рядка "
+"даних, щоб зберегти рядок суми"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<b>Field Cond.</b>: Python code in <code>$</code><code>{...}</code> to "
+"manipulate field value, e.g., if field = product_id, <code>value</code> will"
+" represent product object, e.g., <code>$</code><code>{value and "
+"value.uom_id.name or \"\"}</code>"
+msgstr ""
+"<b>Умова поля</b>: код Python у <code>$</code><code>{...}</code> для зміни "
+"значення поля; наприклад, якщо field = product_id, <code>value</code> "
+"представлятиме об'єкт товару, наприклад <code>$</code><code>{value and "
+"value.uom_id.name or \"\"}</code>"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<b>Field Cond.</b>: Python code in <code>$</code><code>{...}</code> value "
+"will represent data from excel cell, e.g., if A1 = 'ABC', <code>value</code>"
+" will represent 'ABC', e.g., <code>$</code><code>{value == \"ABC\" and \"X\""
+" or \"Y\"}</code> thus can change from cell value to other value for import."
+msgstr ""
+"<b>Умова поля</b>: код Python у <code>$</code><code>{...}</code>; value "
+"представлятиме дані з клітинки Excel, наприклад якщо A1 = 'ABC', "
+"<code>value</code> представлятиме 'ABC'; наприклад "
+"<code>$</code><code>{value == \"ABC\" and \"X\" or \"Y\"}</code>, отже під "
+"час імпорту значення клітинки можна перетворити на інше."
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "<b>Field</b>: Field of the record to be imported to, e.g., product_id"
+msgstr ""
+"<b>Поле</b>: поле запису, до якого виконується імпорт, наприклад product_id"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<b>Field</b>: Field of the record, e.g., product_id.uom_id.name. They are "
+"orm compliant."
+msgstr ""
+"<b>Поле</b>: поле запису, наприклад product_id.uom_id.name. Вони сумісні з "
+"ORM."
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<b>No Delete</b>: By default, all one2many lines will be deleted before "
+"import. Select this, to avoid deletion"
+msgstr ""
+"<b>Не видаляти</b>: за замовчуванням усі рядки one2many видаляються перед "
+"імпортом. Виберіть це, щоб уникнути видалення"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<b>Row Field</b>: Use _HEAD_ for the record itself, and one2many field "
+"(e.g., line_ids) for row data"
+msgstr ""
+"<b>Поле рядка</b>: використовуйте _HEAD_ для самого запису та поле one2many "
+"(наприклад line_ids) для даних рядка"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<b>Row Field</b>: Use _HEAD_ for the record itself, and one2many field for "
+"row data, e.g., order_line, line_ids<code>[max_row]</code> where "
+"<code>[max_row]</code> is optional number of rows to import"
+msgstr ""
+"<b>Поле рядка</b>: використовуйте _HEAD_ для самого запису та поле one2many "
+"для даних рядків, наприклад order_line, line_ids<code>[max_row]</code>, де "
+"<code>[max_row]</code> — необов'язкова кількість рядків для імпорту"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "<b>Sheet</b>: Name (e.g., Sheet 1) or index (e.g., 1) of excel sheet"
+msgstr ""
+"<b>Аркуш</b>: назва (наприклад, Аркуш 1) або індекс (наприклад, 1) аркуша "
+"Excel"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<b>Sheet</b>: Name (e.g., Sheet 1) or index (e.g., 1) of excel sheet to "
+"export data to"
+msgstr ""
+"<b>Аркуш</b>: назва (наприклад, Аркуш 1) або індекс (наприклад, 1) аркуша "
+"Excel для експорту даних"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<b>Style w/Cond.</b>: Conditional style by python code in "
+"<code>#?...?</code>, e.g., apply style for specific product, "
+"<code>#?value.name == \"ABC\" and #{font=bold;fill=red} or None?</code>"
+msgstr ""
+"<b>Стиль з умовою</b>: умовний стиль за кодом Python у <code>#?...?</code>, "
+"наприклад застосування стилю для певного товару: <code>#?value.name == "
+"\"ABC\" and #{font=bold;fill=red} or None?</code>"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<b>Style</b>: Default style in <code>#{...}</code> that apply to each cell, "
+"e.g., <code>#{align=left;style=text}</code>. See module's <b>style.py</b> "
+"for available styles."
+msgstr ""
+"<b>Стиль</b>: стандартний стиль у <code>#{...}</code>, що застосовується до "
+"кожної клітинки, наприклад <code>#{align=left;style=text}</code>. Доступні "
+"стилі див. у <b>style.py</b> модуля."
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "<b>Sum</b>: Add sum value on last row, <code>@{sum}</code>"
+msgstr "<b>Сума</b>: додати суму в останньому рядку, <code>@{sum}</code>"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "<code>date, datetime, time</code>: some useful python classes"
+msgstr "<code>date, datetime, time</code>: корисні класи Python"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "<code>model</code>: active model, e.g., self.env['my.model']"
+msgstr "<code>model</code>: активна модель, напр. self.env['my.model']"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"<code>object</code>: record object or line object depends on <b>Row "
+"Field</b>"
+msgstr ""
+"<code>object</code>: об’єкт запису або об’єкт рядка залежно від <b>Поля "
+"рядка</b>"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "<code>value</code>: value from <b>Cell</b>"
+msgstr "<code>value</code>: значення з <b>комірки</b>"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "<code>value</code>: value from <b>Field</b>"
+msgstr "<code>value</code>: значення з <b>поля</b>"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Add Export Action"
+msgstr "Додати дію експорту"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Add Import Action"
+msgstr "Додати дію імпорту"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Add header section"
+msgstr "Додати розділ заголовка"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Add new report menu at root level"
+msgstr "Додати нове меню звіту на кореневому рівні"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Add sheet section"
+msgstr "Додати розділ аркуша"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__choose_template
+msgid "Allow Choose Template"
+msgstr "Дозволити вибір шаблону"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__csv_extension
+msgid "CSV File Extension"
+msgstr "Розширення CSV-файлу"
+
+#. module: excel_import_export
+#: model_terms:ir.actions.act_window,help:excel_import_export.action_xlsx_template
+msgid "Click to create a XLSX Template Object."
+msgstr "Натисніть, щоб створити об’єкт шаблону XLSX."
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.export_xlsx_wizard
+msgid "Complete Prepare File (.xlsx)"
+msgstr "Завершити підготовку файлу (.xlsx)"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.xlsx_report_view
+msgid "Complete Prepare Report (.xlsx)"
+msgstr "Завершити підготовку звіту (.xlsx)"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"Export Instruction is how to write data from an active data record to specified cells in excel sheet.\n"
+"                                  For example, an active record can be a sale order that user want to export.\n"
+"                                  The record itself will be mapped to the header part of excel sheet. The record can contain multiple one2many fields, which will be written as data lines.\n"
+"                                  You can look at following instruction as Excel Sheet(s), each with 1 header section (_HEAD_) and multiple row sections (one2many fields)."
+msgstr ""
+"Інструкція експорту визначає, як записувати дані з активного запису в указані клітинки аркуша Excel.\n"
+"                                  Наприклад, активним записом може бути замовлення на продаж, яке користувач хоче експортувати.\n"
+"                                  Сам запис буде зіставлено із заголовною частиною аркуша Excel. Запис може містити кілька полів one2many, які буде записано як рядки даних.\n"
+"                                  Наведену нижче інструкцію можна розглядати як аркуш(і) Excel, кожен з однією секцією заголовка (_HEAD_) і кількома секціями рядків (поля one2many)."
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Following are more explaination on each column:"
+msgstr "Нижче наведено додаткове пояснення кожного стовпця:"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"Following show very simple example of the dictionary construct.\n"
+"                                    Normally, this will be within templates.xml file within addons."
+msgstr ""
+"Нижче наведено дуже простий приклад побудови словника.\n"
+"                                    Зазвичай це розміщується у файлі templates.xml усередині addons."
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"For code block <code>$</code><code>{...}</code> and <code>#?...?</code>, "
+"following object are available,"
+msgstr ""
+"Для блоків коду <code>$</code><code>{...}</code> і <code>#?...?</code> "
+"доступні такі об’єкти:"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"For code block <code>$</code><code>{...}</code>, following object are "
+"available,"
+msgstr ""
+"Для блоку коду <code>$</code><code>{...}</code> доступні такі об’єкти:"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.export_xlsx_wizard
+msgid "Get Import Template"
+msgstr "Отримати шаблон імпорту"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Help with Export Instruction"
+msgstr "Довідка з інструкції експорту"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Help with Import Instruction"
+msgstr "Довідка з інструкції імпорту"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.export_xlsx_wizard
+msgid "Here is the exported file:"
+msgstr "Ось експортований файл:"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.xlsx_report_view
+msgid "Here is the report file:"
+msgstr "Ось файл звіту:"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__import_file
+msgid "Import File (*.xlsx)"
+msgstr "Імпортувати файл (*.xlsx)"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
+msgid "Import File Template"
+msgstr "Шаблон файлу імпорту"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__attachment_ids
+msgid "Import File(s) (*.xlsx)"
+msgstr "Імпортувати файл(и) (*.xlsx)"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"Import Instruction is how to get data from excel sheet and write them to an active record.\n"
+"                                  For example, user create a sales order document, and want to import order lines from excel.\n"
+"                                  In reverse direction to exporting, data from excel's cells will be mapped to record fields during import.\n"
+"                                  Cells can be mapped to record in header section (_HEAD_) and data table can be mapped to row section (one2many field, begins from specifed cells."
+msgstr ""
+"Інструкція імпорту визначає, як отримати дані з аркуша Excel і записати їх в активний запис.\n"
+"                                  Наприклад, користувач створює документ замовлення на продаж і хоче імпортувати рядки замовлення з Excel.\n"
+"                                  На відміну від експорту, під час імпорту дані з клітинок Excel зіставляються з полями запису.\n"
+"                                  Клітинки можна зіставити із записом у секції заголовка (_HEAD_), а таблицю даних — із секцією рядків (поле one2many, починаючи із зазначених клітинок)."
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
+msgid "Import Successful!"
+msgstr "Імпорт успішний!"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"In header section part, map data fields (e.g., number, partner_id.name) into"
+" cells (e.g., B1, B2)."
+msgstr ""
+"У частині заголовка зіставте поля даних (наприклад number, partner_id.name) "
+"із клітинками (наприклад B1, B2)."
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"In header section, map cells (e.g., B1, B2) into data fields (e.g., number, "
+"partner_id)."
+msgstr ""
+"У розділі заголовка зіставте клітинки (наприклад B1, B2) з полями даних "
+"(наприклад number, partner_id)."
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"In row section, data list will be rolled out from one2many row field (e.g., "
+"order_line), and map data field (i.e., product_id.name, uom_id.name, qty) "
+"into the first row cells to start rolling (e.g., A6, B6, C6)."
+msgstr ""
+"У секції рядків список даних буде розгорнуто з поля one2many (наприклад, "
+"order_line), а поля даних (наприклад, product_id.name, uom_id.name, qty) "
+"буде зіставлено з клітинками першого рядка, з яких починатиметься "
+"розгортання (наприклад, A6, B6, C6)."
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid ""
+"In row section, data table from excel can be imported to one2many row field "
+"(e.g., order_line) by mapping cells on first row onwards (e.g., A6, B6, C6) "
+"to fields (e.g., product_id, uom_id, qty)"
+msgstr ""
+"У секції рядків таблицю даних з Excel можна імпортувати в поле one2many "
+"(наприклад, order_line), зіставляючи клітинки, починаючи з першого рядка "
+"(наприклад, A6, B6, C6), з полями (наприклад, product_id, uom_id, qty)"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Input Instruction (Dict.)"
+msgstr "Інструкція введення (словник)"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__input_instruction
+msgid "Instruction (Input)"
+msgstr "Інструкція (введення)"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__post_import_hook
+msgid "Post Import Function Hook"
+msgstr "Хук функції після імпорту"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Post Import Hook"
+msgstr "Хук після імпорту"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Remove Export Action"
+msgstr "Видалити дію експорту"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Remove Import Action"
+msgstr "Видалити дію імпорту"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Remove Report Menu"
+msgstr "Видалити меню звіту"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Sample Input Instruction as Dictionary"
+msgstr "Приклад інструкції введення як словника"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__domain
+msgid "Search Criterias"
+msgstr "Критерії пошуку"
+
+#. module: excel_import_export
+#: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
+msgid "⇒ Get Sample Import Template"
+msgstr "⇒ Отримати зразок шаблону імпорту"

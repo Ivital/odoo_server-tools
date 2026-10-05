@@ -114,3 +114,18 @@ msgstr "Потрібне оновлення"
 #: model:ir.actions.act_window,name:base_url.base_url_action_view
 msgid "Url List"
 msgstr "Список URL"
+
+#. module: base_url
+#: model:ir.model.fields,field_description:base_url.field_abstract_url__redirect_url_key
+msgid "Redirect Url Keys"
+msgstr "Ключі URL перенаправлення"
+
+#. module: base_url
+#: model:ir.model.fields,field_description:base_url.field_abstract_url__url_need_refresh
+msgid "Url Need Refresh"
+msgstr "URL потребує оновлення"
+
+#. module: base_url
+#: model_terms:ir.ui.view,arch_db:base_url.url_view_form
+msgid "Url rewriting edit form"
+msgstr "Форма редагування переписування URL"

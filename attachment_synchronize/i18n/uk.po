@@ -231,3 +231,63 @@ msgstr "Перейменувати"
 #: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_list
 msgid "Run"
 msgstr "Запустити"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
+msgid "<span class=\"o_stat_text\">Fail</span>"
+msgstr "<span class=\"o_stat_text\">Помилка</span>"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
+msgid "<span class=\"o_stat_text\">Pending</span>"
+msgstr "<span class=\"o_stat_text\">Очікує</span>"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
+msgid "<span class=\"o_stat_text\">Success</span>"
+msgstr "<span class=\"o_stat_text\">Успіх</span>"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__avoid_duplicated_files
+msgid "Avoid importing duplicated files"
+msgstr "Уникати імпорту дубльованих файлів"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__count_attachment_done
+msgid "Count Attachment Done"
+msgstr "Кількість оброблених вкладень"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__count_attachment_failed
+msgid "Count Attachment Failed"
+msgstr "Кількість невдалих вкладень"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__count_attachment_pending
+msgid "Count Attachment Pending"
+msgstr "Кількість вкладень в очікуванні"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields.selection,name:attachment_synchronize.selection__attachment_queue__file_type__export
+msgid "Export File (External location)"
+msgstr "Експортувати файл (зовнішнє місце)"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_queue__fs_storage_id
+msgid "Filestore Storage"
+msgstr "Сховище файлового сховища"
+
+#. module: attachment_synchronize
+#: model:ir.actions.server,name:attachment_synchronize.cronjob_run_attachment_synchronize_task_import_ir_actions_server
+msgid "Run attachment tasks import"
+msgstr "Запустити імпорт завдань вкладень"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__pattern
+msgid "Selection Pattern"
+msgstr "Шаблон вибору"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
+msgid "Storage Location"
+msgstr "Місце зберігання"

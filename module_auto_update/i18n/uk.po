@@ -65,3 +65,18 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:module_auto_update.field_module_auto_update__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: module_auto_update
+#: model_terms:ir.ui.view,arch_db:module_auto_update.view_base_module_upgrade
+msgid "Are you sure you want to launch module auto-update?"
+msgstr "Ви впевнені, що хочете запустити автооновлення модулів?"
+
+#. module: module_auto_update
+#: model:ir.model.fields,field_description:module_auto_update.field_module_auto_update__modules_to_update_ids
+msgid "Modules to Update"
+msgstr "Модулі для оновлення"
+
+#. module: module_auto_update
+#: model_terms:ir.ui.view,arch_db:module_auto_update.view_base_module_upgrade
+msgid "Show Modules to Update"
+msgstr "Показувати модулі для оновлення"
