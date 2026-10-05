@@ -106,3 +106,102 @@ msgstr "Розмір за моделлю"
 #: model:ir.model.fields,field_description:database_size.field_res_config_settings__smart_search
 msgid "Smart Search"
 msgstr "Розумний пошук"
+
+#. module: database_size
+#: model_terms:ir.ui.view,arch_db:database_size.res_config_settings_view_form
+msgid "<span> days</span>"
+msgstr "<span> днів</span>"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size__attachment_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__attachment_size
+msgid "Attachment Size"
+msgstr "Розмір вкладення"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size__table_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__table_size
+msgid "Bare Table Size"
+msgstr "Чистий розмір таблиці"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size__measurement_date
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__measurement_date
+#: model_terms:ir.ui.view,arch_db:database_size.ir_model_size_view_search
+msgid "Date of Measurement"
+msgstr "Дата вимірювання"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size__tuples
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__tuples
+msgid "Estimated Rows"
+msgstr "Орієнтовна кількість рядків"
+
+#. module: database_size
+#: model_terms:ir.ui.view,arch_db:database_size.ir_model_size_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_index_size__ir_model_size_id
+#: model:ir.model.fields,field_description:database_size.field_ir_model_relation_size__ir_model_size_id
+msgid "Ir Model Size"
+msgstr "Розмір Ir Model"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_index_size__write_uid
+#: model:ir.model.fields,field_description:database_size.field_ir_model_relation_size__write_uid
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_index_size__write_date
+#: model:ir.model.fields,field_description:database_size.field_ir_model_relation_size__write_date
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size__relations_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__relations_size
+msgid "Many2many Tables Size"
+msgstr "Розмір таблиць many2many"
+
+#. module: database_size
+#: model_terms:ir.ui.view,arch_db:database_size.ir_model_size_view_form
+msgid "Many2many tables"
+msgstr "Таблиці Many2many"
+
+#. module: database_size
+#: model_terms:ir.ui.view,arch_db:database_size.ir_model_size_report_view_search
+msgid "Notable Change"
+msgstr "Помітна зміна"
+
+#. module: database_size
+#: model_terms:ir.ui.view,arch_db:database_size.ir_model_size_report_view_search
+msgid "One Month Ago"
+msgstr "Місяць тому"
+
+#. module: database_size
+#: model_terms:ir.ui.view,arch_db:database_size.ir_model_size_report_view_search
+msgid "One Year Ago"
+msgstr "Рік тому"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size__total_database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__total_database_size
+msgid "Total Database Size"
+msgstr "Загальний розмір бази даних"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size__total_model_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__total_model_size
+msgid "Total Model Size"
+msgstr "Загальний розмір моделі"
+
+#. module: database_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size__total_table_size
+#: model:ir.model.fields,field_description:database_size.field_ir_model_size_report__total_table_size
+msgid "Total Table Size"
+msgstr "Загальний розмір таблиці"

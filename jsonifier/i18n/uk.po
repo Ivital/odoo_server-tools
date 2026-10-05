@@ -96,3 +96,23 @@ msgstr "Тип"
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__smart_search
 msgid "Smart Search"
 msgstr "Розумний пошук"
+
+#. module: jsonifier
+#: model:ir.model.fields,field_description:jsonifier.field_ir_exports_line__resolver_id
+msgid "Custom resolver"
+msgstr "Користувацький резолвер"
+
+#. module: jsonifier
+#: model:ir.model.fields.selection,name:jsonifier.selection__ir_exports_resolver__type__global
+msgid "Global"
+msgstr "Глобальний"
+
+#. module: jsonifier
+#: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: jsonifier
+#: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

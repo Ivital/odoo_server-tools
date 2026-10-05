@@ -110,3 +110,37 @@ msgstr "Налаштування"
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__smart_search
 msgid "Smart Search"
 msgstr "Розумний пошук"
+
+#. module: module_analysis
+#: model_terms:ir.ui.view,arch_db:module_analysis.view_ir_module_module_form
+msgid "Code Size"
+msgstr "Розмір коду"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__js_code_qty
+msgid "JS Code Quantity"
+msgstr "Кількість JS-коду"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__write_uid
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__write_uid
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__write_date
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__write_date
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__module_domain
+msgid "Module Domain"
+msgstr "Домен модуля"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__installed_module_qty
+msgid "Modules Quantity"
+msgstr "Кількість модулів"

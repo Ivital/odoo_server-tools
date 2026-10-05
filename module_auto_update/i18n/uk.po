@@ -40,3 +40,28 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:module_auto_update.field_module_auto_update__smart_search
 msgid "Smart Search"
 msgstr "Розумний пошук"
+
+#. module: module_auto_update
+#: model_terms:ir.ui.view,arch_db:module_auto_update.view_base_module_upgrade
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: module_auto_update
+#: model_terms:ir.ui.view,arch_db:module_auto_update.view_base_module_upgrade
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: module_auto_update
+#: model_terms:ir.ui.view,arch_db:module_auto_update.view_base_module_upgrade
+msgid "Impacted Apps"
+msgstr "Задіяні застосунки"
+
+#. module: module_auto_update
+#: model:ir.model.fields,field_description:module_auto_update.field_module_auto_update__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: module_auto_update
+#: model:ir.model.fields,field_description:module_auto_update.field_module_auto_update__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

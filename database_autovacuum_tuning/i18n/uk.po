@@ -51,3 +51,18 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:database_autovacuum_tuning.field_res_config_settings__smart_search
 msgid "Smart Search"
 msgstr "Розумний пошук"
+
+#. module: database_autovacuum_tuning
+#: model_terms:ir.ui.view,arch_db:database_autovacuum_tuning.databaseautovacuum_tuning_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_database_autovacuum_tuning__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_database_autovacuum_tuning__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

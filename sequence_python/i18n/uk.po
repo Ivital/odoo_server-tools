@@ -27,3 +27,13 @@ msgstr "Код Python"
 #: model:ir.model.fields,field_description:sequence_python.field_ir_sequence__use_python_code
 msgid "Use Python"
 msgstr "Використовувати Python"
+
+#. module: sequence_python
+#: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
+msgid "Help with Python expressions"
+msgstr "Допомога з виразами Python"
+
+#. module: sequence_python
+#: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
+msgid "number"
+msgstr "номер"

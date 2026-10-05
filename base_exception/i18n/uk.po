@@ -46,17 +46,17 @@ msgstr ""
 #. module: base_exception
 #: model:ir.model.fields.selection,name:base_exception.selection__exception_rule__exception_type__by_domain
 msgid "By domain"
-msgstr ""
+msgstr "За доменом"
 
 #. module: base_exception
 #: model:ir.model.fields.selection,name:base_exception.selection__exception_rule__exception_type__by_method
 msgid "By method"
-msgstr ""
+msgstr "За методом"
 
 #. module: base_exception
 #: model:ir.model.fields.selection,name:base_exception.selection__exception_rule__exception_type__by_py_code
 msgid "By python code"
-msgstr ""
+msgstr "За кодом Python"
 
 #. module: base_exception
 #: model:ir.model.fields,help:base_exception.field_exception_rule__exception_type
@@ -70,7 +70,7 @@ msgstr ""
 #. module: base_exception
 #: model_terms:ir.ui.view,arch_db:base_exception.view_exception_rule_confirm
 msgid "Close"
-msgstr ""
+msgstr "Закрити"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__create_uid
@@ -122,7 +122,7 @@ msgstr "Опис"
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__name
 msgid "Exception Name"
-msgstr ""
+msgstr "Назва винятку"
 
 #. module: base_exception
 #: model:ir.model,name:base_exception.model_exception_rule
@@ -153,7 +153,7 @@ msgstr "Правила винятків"
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__exception_type
 msgid "Exception Type"
-msgstr ""
+msgstr "Тип винятку"
 
 #. module: base_exception
 #: model:res.groups,name:base_exception.group_exception_rule_manager
@@ -174,7 +174,7 @@ msgstr "Опис"
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_confirm__exception_ids
 msgid "Exceptions to resolve"
-msgstr ""
+msgstr "Винятки для усунення"
 
 #. module: base_exception
 #: model:ir.model.fields,help:base_exception.field_exception_rule__sequence
@@ -184,12 +184,12 @@ msgstr ""
 #. module: base_exception
 #: model_terms:ir.ui.view,arch_db:base_exception.view_exception_rule_form
 msgid "Help"
-msgstr ""
+msgstr "Довідка"
 
 #. module: base_exception
 #: model_terms:ir.ui.view,arch_db:base_exception.view_exception_rule_form
 msgid "Help with Python expressions"
-msgstr ""
+msgstr "Допомога з виразами Python"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__id
@@ -200,7 +200,7 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:base_exception.field_base_exception__ignore_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_confirm__ignore
 msgid "Ignore Exceptions"
-msgstr ""
+msgstr "Ігнорувати винятки"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__is_blocking
@@ -220,7 +220,7 @@ msgstr "Останнє оновлення"
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_base_exception__main_exception_id
 msgid "Main Exception"
-msgstr ""
+msgstr "Основний виняток"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__method
@@ -236,7 +236,7 @@ msgstr ""
 #. module: base_exception
 #: model:ir.actions.act_window,name:base_exception.action_exception_rule_confirm
 msgid "Outstanding exceptions to manage"
-msgstr ""
+msgstr "Невирішені винятки для опрацювання"
 
 #. module: base_exception
 #: model_terms:ir.ui.view,arch_db:base_exception.view_exception_rule_confirm

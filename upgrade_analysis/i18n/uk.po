@@ -243,3 +243,125 @@ msgstr "Версія"
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__write_files
 msgid "Write Files"
 msgstr "Записувати файли"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_install_wizard_form
+msgid "All Modules"
+msgstr "Усі модулі"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_install_wizard_form
+msgid "All OCA Modules"
+msgstr "Усі модулі OCA"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__analysis_date
+msgid "Analysis Date"
+msgstr "Дата аналізу"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__analysis_qty
+msgid "Analysis Qty"
+msgstr "Кількість аналізу"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_install_wizard_form
+msgid "Clear the list"
+msgstr "Очистити список"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_generate_record_wizard_form
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_install_wizard_form
+msgid "Close"
+msgstr "Закрити"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_record_search
+msgid "Create Mode"
+msgstr "Режим створення"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_generate_record_wizard__state__draft
+#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_install_wizard__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_install_wizard_form
+msgid "Install Modules"
+msgstr "Встановити модулі"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_ir_module_module__is_oca_module
+msgid "Is Oca Module"
+msgstr "Є модулем OCA"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_ir_module_module__is_odoo_module
+msgid "Is Odoo Module"
+msgstr "Є модулем Odoo"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__write_uid
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__write_uid
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__write_uid
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__write_uid
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__write_uid
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__write_date
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__write_date
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__write_date
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__write_date
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__write_date
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_record__mode__modify
+msgid "Modify"
+msgstr "Змінити"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_record_search
+msgid "Modify Mode"
+msgstr "Режим зміни"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.module_coverage
+msgid "Module coverage"
+msgstr "Покриття модулів"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__module_qty
+msgid "Modules Quantity"
+msgstr "Кількість модулів"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_comparison_config_form
+msgid "New Analysis"
+msgstr "Новий аналіз"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_comparison_config_form
+msgid "Test Connection"
+msgstr "Перевірити з'єднання"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__upgrade_path
+msgid "Upgrade Path"
+msgstr "Шлях оновлення"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_analysis__state__draft
+msgid "draft"
+msgstr "чернетка"
+
+#. module: upgrade_analysis
+#: model:ir.actions.act_window,name:upgrade_analysis.action_upgrade_record_tree
+msgid "upgrade Records"
+msgstr "Записи оновлення"

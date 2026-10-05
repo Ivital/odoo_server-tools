@@ -367,3 +367,31 @@ msgstr "Розумний пошук"
 #: model:ir.ui.menu,name:base_name_search_improved.menu_improved_name_search
 msgid "Smart Searches"
 msgstr "Розумний пошук"
+
+#. module: base_name_search_improved
+#: model:ir.model.fields,field_description:base_name_search_improved.field_ir_model__add_smart_search
+msgid "Add Smart Search"
+msgstr "Додати розумний пошук"
+
+#. module: base_name_search_improved
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
+msgid "Custom Search"
+msgstr "Власний пошук"
+
+#. module: base_name_search_improved
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_tree
+msgid "Search Fields"
+msgstr "Поля пошуку"
+
+#. module: base_name_search_improved
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_search
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_tree
+msgid "Smart Name Search"
+msgstr "Розумний пошук за назвою"
+
+#. module: base_name_search_improved
+#: model:ir.model.fields,field_description:base_name_search_improved.field_ir_model__name_search_ids
+#: model_terms:ir.ui.view,arch_db:base_name_search_improved.view_model_form_new
+msgid "Smart Search Fields"
+msgstr "Поля розумного пошуку"

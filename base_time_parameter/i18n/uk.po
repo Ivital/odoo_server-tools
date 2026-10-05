@@ -110,3 +110,42 @@ msgstr "Значення"
 #: model_terms:ir.ui.view,arch_db:base_time_parameter.base_time_parameter_view_form
 msgid "Versions"
 msgstr "Версії"
+
+#. module: base_time_parameter
+#: model:ir.model.fields.selection,name:base_time_parameter.selection__base_time_parameter__type__integer
+msgid "Integer number"
+msgstr "Ціле число"
+
+#. module: base_time_parameter
+#: model:ir.model.fields,field_description:base_time_parameter.field_base_time_parameter__write_uid
+#: model:ir.model.fields,field_description:base_time_parameter.field_base_time_parameter_version__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_time_parameter
+#: model:ir.model.fields,field_description:base_time_parameter.field_base_time_parameter__write_date
+#: model:ir.model.fields,field_description:base_time_parameter.field_base_time_parameter_version__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_time_parameter
+#: model:ir.model.fields,field_description:base_time_parameter.field_base_time_parameter__name
+msgid "Parameter Name"
+msgstr "Назва параметра"
+
+#. module: base_time_parameter
+#: model:ir.model.fields,field_description:base_time_parameter.field_base_time_parameter__record_model
+msgid "Record Model"
+msgstr "Модель запису"
+
+#. module: base_time_parameter
+#: model:ir.model.fields,field_description:base_time_parameter.field_base_time_parameter_version__value_reference
+msgid "Reference Value"
+msgstr "Еталонне значення"
+
+#. module: base_time_parameter
+#: model:ir.model,name:base_time_parameter.model_base_time_parameter
+#: model:ir.model.fields,field_description:base_time_parameter.field_base_time_parameter_version__parameter_id
+#: model_terms:ir.ui.view,arch_db:base_time_parameter.base_time_parameter_view_form
+msgid "Time Parameter"
+msgstr "Параметр часу"

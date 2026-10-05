@@ -94,3 +94,23 @@ msgstr "Ключ URL"
 #: model:ir.ui.menu,name:base_url.url_menu_view
 msgid "Url Rewrite"
 msgstr "Перезапис URL"
+
+#. module: base_url
+#: model:ir.model.fields,field_description:base_url.field_url_url__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_url
+#: model:ir.model.fields,field_description:base_url.field_url_url__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_url
+#: model:ir.model.fields,field_description:base_url.field_url_url__need_refresh
+msgid "Need Refresh"
+msgstr "Потрібне оновлення"
+
+#. module: base_url
+#: model:ir.actions.act_window,name:base_url.base_url_action_view
+msgid "Url List"
+msgstr "Список URL"

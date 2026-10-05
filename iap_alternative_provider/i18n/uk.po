@@ -22,3 +22,8 @@ msgstr "Провайдер"
 #: model:ir.model.fields,field_description:iap_alternative_provider.field_iap_account__smart_search
 msgid "Smart Search"
 msgstr "Розумний пошук"
+
+#. module: iap_alternative_provider
+#: model_terms:ir.ui.view,arch_db:iap_alternative_provider.iap_account_view_form
+msgid "Info"
+msgstr "Інформація"

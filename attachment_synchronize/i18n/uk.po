@@ -135,3 +135,99 @@ msgstr "Завдання"
 #: model:ir.model.fields,field_description:attachment_synchronize.field_fs_storage__synchronize_task_ids
 msgid "Tasks"
 msgstr "Завдання"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_queue__assigned_attachment_ids
+#: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__assigned_attachment_ids
+#: model:ir.model.fields,field_description:attachment_synchronize.field_fs_storage__assigned_attachment_ids
+msgid "Assigned Attachments"
+msgstr "Призначені вкладення"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_search
+msgid "Attachment Task"
+msgstr "Завдання вкладення"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_list
+msgid "Done attachments"
+msgstr "Виконані вкладення"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_list
+msgid "Duplicate"
+msgstr "Дублювати"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields.selection,name:attachment_synchronize.selection__attachment_synchronize_task__method_type__export
+msgid "Export Task"
+msgstr "Завдання експорту"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_fs_storage__export_task_count
+msgid "Export Tasks"
+msgstr "Завдання експорту"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_list
+msgid "Failed attachments"
+msgstr "Невдалі вкладення"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__failure_emails
+msgid "Failure Emails"
+msgstr "Листи про помилки"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields.selection,name:attachment_synchronize.selection__attachment_synchronize_task__method_type__import
+msgid "Import Task"
+msgstr "Завдання імпорту"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_fs_storage__import_task_count
+msgid "Import Tasks"
+msgstr "Імпортувати завдання"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
+msgid "Importation"
+msgstr "Імпорт"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields.selection,name:attachment_synchronize.selection__attachment_synchronize_task__after_import__move_rename
+msgid "Move & Rename"
+msgstr "Перемістити й перейменувати"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
+msgid "Notification"
+msgstr "Сповіщення"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_list
+msgid "Pending attachments"
+msgstr "Вкладення в очікуванні"
+
+#. module: attachment_synchronize
+#: model:ir.model.fields.selection,name:attachment_synchronize.selection__attachment_synchronize_task__after_import__rename
+msgid "Rename"
+msgstr "Перейменувати"
+
+#. module: attachment_synchronize
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
+#: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_list
+msgid "Run"
+msgstr "Запустити"

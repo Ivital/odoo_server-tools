@@ -35,3 +35,52 @@ msgstr "Розумний пошук"
 #: model:ir.model.fields,field_description:tracking_manager.field_ir_model_fields__trackable
 msgid "Trackable"
 msgstr "Відстежуваний"
+
+#. module: tracking_manager
+#: model_terms:ir.ui.view,arch_db:tracking_manager.track_o2m_m2m_template
+msgid "<b>Change :</b>"
+msgstr "<b>Зміна :</b>"
+
+#. module: tracking_manager
+#: model_terms:ir.ui.view,arch_db:tracking_manager.track_o2m_m2m_template
+msgid "<b>Delete :</b>"
+msgstr "<b>Видалення :</b>"
+
+#. module: tracking_manager
+#: model_terms:ir.ui.view,arch_db:tracking_manager.track_o2m_m2m_template
+msgid "<b>New :</b>"
+msgstr "<b>Нове:</b>"
+
+#. module: tracking_manager
+#: model:ir.model.fields,field_description:tracking_manager.field_ir_model__assigned_attachment_ids
+#: model:ir.model.fields,field_description:tracking_manager.field_ir_model_fields__assigned_attachment_ids
+#: model:ir.model.fields,field_description:tracking_manager.field_mail_thread__assigned_attachment_ids
+#: model:ir.model.fields,field_description:tracking_manager.field_mail_tracking_value__assigned_attachment_ids
+msgid "Assigned Attachments"
+msgstr "Призначені вкладення"
+
+#. module: tracking_manager
+#: model_terms:ir.ui.view,arch_db:tracking_manager.track_o2m_m2m_template
+msgid "Changed"
+msgstr "Змінено"
+
+#. module: tracking_manager
+#: model:ir.model.fields,field_description:tracking_manager.field_ir_model_fields__custom_tracking
+#: model_terms:ir.ui.view,arch_db:tracking_manager.view_model_form
+msgid "Custom Tracking"
+msgstr "Користувацьке відстеження"
+
+#. module: tracking_manager
+#: model:ir.model.fields,field_description:tracking_manager.field_ir_model_fields__native_tracking
+msgid "Native Tracking"
+msgstr "Вбудоване відстеження"
+
+#. module: tracking_manager
+#: model_terms:ir.ui.view,arch_db:tracking_manager.view_model_form
+msgid "Tracked Fields"
+msgstr "Відстежувані поля"
+
+#. module: tracking_manager
+#: model_terms:ir.ui.view,arch_db:tracking_manager.view_model_form
+msgid "Update"
+msgstr "Оновити"

@@ -59,3 +59,45 @@ msgstr "Поштовий сервер"
 #: model:ir.model.fields,field_description:attachment_queue_email.field_fetchmail_server__smart_search
 msgid "Smart Search"
 msgstr "Розумний пошук"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,field_description:attachment_queue_email.field_attachment_queue__assigned_attachment_ids
+#: model:ir.model.fields,field_description:attachment_queue_email.field_fetchmail_attachment_condition__assigned_attachment_ids
+#: model:ir.model.fields,field_description:attachment_queue_email.field_fetchmail_server__assigned_attachment_ids
+msgid "Assigned Attachments"
+msgstr "Призначені вкладення"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,field_description:attachment_queue_email.field_fetchmail_attachment_condition__name
+msgid "Condition Name"
+msgstr "Назва умови"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,field_description:attachment_queue_email.field_attachment_queue__fetchmail_server_id
+msgid "Email Server"
+msgstr "Поштовий сервер"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,field_description:attachment_queue_email.field_fetchmail_attachment_condition__email_subject
+msgid "Email Subject"
+msgstr "Тема листа"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,field_description:attachment_queue_email.field_fetchmail_attachment_condition__file_extension
+msgid "File Extension"
+msgstr "Розширення файлу"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,field_description:attachment_queue_email.field_fetchmail_attachment_condition__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: attachment_queue_email
+#: model:ir.model.fields,field_description:attachment_queue_email.field_fetchmail_attachment_condition__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: attachment_queue_email
+#: model_terms:ir.ui.view,arch_db:attachment_queue_email.view_fetchmail_attachment_condition_form
+msgid "Requirements"
+msgstr "Вимоги"

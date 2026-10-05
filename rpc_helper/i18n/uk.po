@@ -22,3 +22,13 @@ msgstr "Конфігурація RPC"
 #: model:ir.model.fields,field_description:rpc_helper.field_ir_model__smart_search
 msgid "Smart Search"
 msgstr "Розумний пошук"
+
+#. module: rpc_helper
+#: model_terms:ir.ui.view,arch_db:rpc_helper.view_model_form
+msgid "RPC config"
+msgstr "Конфігурація RPC"
+
+#. module: rpc_helper
+#: model:ir.model.fields,field_description:rpc_helper.field_ir_model__rpc_config_edit
+msgid "Rpc Config Edit"
+msgstr "Редагування конфігурації RPC"

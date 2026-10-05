@@ -74,7 +74,7 @@ msgstr "Назва для відображення"
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__extension
 msgid "File extension"
-msgstr ""
+msgstr "Розширення файлу"
 
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__filename
@@ -84,12 +84,12 @@ msgstr "Ім’я файлу"
 #. module: base_multi_image
 #: model:ir.model.fields.selection,name:base_multi_image.selection__base_multi_image_image__storage__filestore
 msgid "Filestore"
-msgstr ""
+msgstr "Файлове сховище"
 
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__image_main
 msgid "Full-sized image"
-msgstr ""
+msgstr "Повнорозмірне зображення"
 
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__id
@@ -110,7 +110,7 @@ msgstr "Шлях зображення"
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__url
 msgid "Image remote URL"
-msgstr ""
+msgstr "Віддалена URL зображення"
 
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__file_db_store
@@ -181,7 +181,7 @@ msgstr "Назва"
 #. module: base_multi_image
 #: model:ir.model.fields.selection,name:base_multi_image.selection__base_multi_image_image__storage__file
 msgid "OS file"
-msgstr ""
+msgstr "Файл ОС"
 
 #. module: base_multi_image
 #: model_terms:ir.ui.view,arch_db:base_multi_image.image_form_view
@@ -207,7 +207,7 @@ msgstr "Попередній перегляд"
 #. module: base_multi_image
 #: model_terms:ir.ui.view,arch_db:base_multi_image.image_kanban_view
 msgid "Product Images"
-msgstr ""
+msgstr "Зображення товарів"
 
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__owner_ref_id
@@ -222,7 +222,7 @@ msgstr "Послідовність"
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__show_technical
 msgid "Show Technical"
-msgstr ""
+msgstr "Показувати технічне"
 
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_owner__image_main_small

@@ -84,3 +84,19 @@ msgstr "Назва"
 #: model_terms:ir.ui.view,arch_db:base_conditional_image.view_conditional_image_form
 msgid "Selector"
 msgstr "Селектор"
+
+#. module: base_conditional_image
+#: model:ir.model,name:base_conditional_image.model_conditional_image
+#: model_terms:ir.ui.view,arch_db:base_conditional_image.view_conditional_image_form
+msgid "Conditional Image"
+msgstr "Умовне зображення"
+
+#. module: base_conditional_image
+#: model:ir.model.fields,field_description:base_conditional_image.field_conditional_image__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_conditional_image
+#: model:ir.model.fields,field_description:base_conditional_image.field_conditional_image__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
