@@ -1,0 +1,112 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: module_analysis
+#: model:ir.ui.menu,name:module_analysis.menu_module_analysis
+msgid "Analysis"
+msgstr "Аналіз"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__author_ids
+msgid "Authors"
+msgstr "Автори"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__create_uid
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__create_uid
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__create_date
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__create_date
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__display_name
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__display_name
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: module_analysis
+#: model:ir.actions.act_window,name:module_analysis.action_ir_module_module_by_type
+#: model:ir.ui.menu,name:module_analysis.menu_module_by_type
+msgid "Installed Modules by Types"
+msgstr "Встановлені модулі за типами"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__module_type_id
+msgid "Module type"
+msgstr "Тип модуля"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__installed_module_ids
+msgid "Modules"
+msgstr "Модулі"
+
+#. module: module_analysis
+#: model:ir.actions.act_window,name:module_analysis.action_ir_module_author
+#: model:ir.model,name:module_analysis.model_ir_module_author
+#: model:ir.ui.menu,name:module_analysis.menu_module_authors
+msgid "Modules Authors"
+msgstr "Автори модулів"
+
+#. module: module_analysis
+#: model:ir.actions.act_window,name:module_analysis.action_ir_module_type
+#: model:ir.model,name:module_analysis.model_ir_module_type
+#: model:ir.ui.menu,name:module_analysis.menu_module_types
+msgid "Modules Types"
+msgstr "Типи модулів"
+
+#. module: module_analysis
+#: model:ir.actions.act_window,name:module_analysis.action_ir_module_type_rule
+#: model:ir.model,name:module_analysis.model_ir_module_type_rule
+#: model:ir.ui.menu,name:module_analysis.menu_module_type_rules
+msgid "Modules Types Rules"
+msgstr "Правила типів модулів"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__name
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: module_analysis
+#: model:ir.ui.menu,name:module_analysis.menu_module_analysis_reporting
+msgid "Reporting"
+msgstr "Звітність"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__sequence
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: module_analysis
+#: model:ir.ui.menu,name:module_analysis.menu_module_analysis_settings
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__smart_search
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__smart_search
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__smart_search
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__smart_search
+msgid "Smart Search"
+msgstr "Розумний пошук"

@@ -1,0 +1,237 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__csv_quote
+msgid "CSV Quoting"
+msgstr "Кавички CSV"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__excel_cell
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__excel_cell
+msgid "Cell"
+msgstr "Комірка"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__is_cont
+msgid "Continue"
+msgstr "Продовжити"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__create_uid
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__create_uid
+#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__create_uid
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__create_uid
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__create_uid
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__create_date
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__create_date
+#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__create_date
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__create_date
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__create_date
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: excel_import_export
+#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_export__section_type__data
+#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_import__section_type__data
+msgid "Data"
+msgstr "Дані"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__display_name
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__display_name
+#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__display_name
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__display_name
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__display_name
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: excel_import_export
+#: model:ir.ui.menu,name:excel_import_export.menu_excel_import_export
+msgid "Excel Import/Export"
+msgstr "Імпорт/експорт Excel"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__export_ids
+#: model_terms:ir.ui.view,arch_db:excel_import_export.export_xlsx_wizard
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Export"
+msgstr "Експорт"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__is_extend
+msgid "Extend"
+msgstr "Розширити"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__field_name
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__field_name
+msgid "Field"
+msgstr "Поле"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__field_cond
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__field_cond
+msgid "Field Cond."
+msgstr "Умова поля"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__data
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__data
+msgid "File"
+msgstr "Файл"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__datas
+msgid "File Content"
+msgstr "Вміст файлу"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__name
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__name
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__fname
+msgid "File Name"
+msgstr "Ім’я файлу"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__gname
+msgid "Group Name"
+msgstr "Назва групи"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__import_ids
+#: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
+#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
+msgid "Import"
+msgstr "Імпорт"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__instruction
+msgid "Instruction"
+msgstr "Інструкція"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__no_delete
+msgid "No Delete"
+msgstr "Не видаляти"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__report_menu_id
+msgid "Report Menu"
+msgstr "Меню звіту"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__res_model
+msgid "Res Model"
+msgstr "Модель ресурсу"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__res_id
+msgid "Resource ID"
+msgstr "ID ресурсу"
+
+#. module: excel_import_export
+#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_export__section_type__row
+#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_import__section_type__row
+msgid "Row"
+msgstr "Рядок"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__row_field
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__row_field
+msgid "Row Field"
+msgstr "Поле рядка"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__datas
+msgid "Sample"
+msgstr "Зразок"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__section_type
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__section_type
+msgid "Section Type"
+msgstr "Тип розділу"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__sequence
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__sheet
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__sheet
+#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_export__section_type__sheet
+#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_import__section_type__sheet
+msgid "Sheet"
+msgstr "Аркуш"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__show_instruction
+msgid "Show Output"
+msgstr "Показувати вихід"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__smart_search
+msgid "Smart Search"
+msgstr "Розумний пошук"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__state
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__state
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__state
+msgid "State"
+msgstr "Стан"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__is_sum
+msgid "Sum"
+msgstr "Сума"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__template_id
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__template_id
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__template_id
+msgid "Template"
+msgstr "Шаблон"
+
+#. module: excel_import_export
+#: model:ir.actions.act_window,name:excel_import_export.action_xlsx_template
+#: model:ir.ui.menu,name:excel_import_export.menu_xlsx_template
+msgid "XLSX Templates"
+msgstr "Шаблони XLSX"

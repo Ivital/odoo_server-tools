@@ -1,0 +1,203 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__access_token
+msgid "Access Token"
+msgstr "Токен доступу"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__attachment_id
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Attachment"
+msgstr "Вкладення"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__attachment_ids
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Attachments"
+msgstr "Вкладення"
+
+#. module: attachment_queue
+#: model:ir.actions.act_window,name:attachment_queue.action_attachment_queue
+#: model:ir.ui.menu,name:attachment_queue.menu_attachment_queue
+msgid "Attachments Queue"
+msgstr "Черга вкладень"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__company_id
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Company"
+msgstr "Компанія"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__create_uid
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__create_date
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__date_done
+msgid "Date Done"
+msgstr "Дата виконання"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__display_name
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: attachment_queue
+#: model:ir.model.fields.selection,name:attachment_queue.selection__attachment_queue__state__done
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Done"
+msgstr "Готово"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_form
+msgid "Error"
+msgstr "Помилка"
+
+#. module: attachment_queue
+#: model:ir.model.fields.selection,name:attachment_queue.selection__attachment_queue__state__failed
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Failed"
+msgstr "Невдалі"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__file_size
+msgid "File Size"
+msgstr "Розмір файлу"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "File type"
+msgstr "Тип файлу"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__image_height
+msgid "Image Height"
+msgstr "Висота зображення"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__image_src
+msgid "Image Src"
+msgstr "Джерело зображення"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__image_width
+msgid "Image Width"
+msgstr "Ширина зображення"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__mimetype
+msgid "Mime Type"
+msgstr "MIME-тип"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Owner"
+msgstr "Власник"
+
+#. module: attachment_queue
+#: model:ir.model.fields.selection,name:attachment_queue.selection__attachment_queue__state__pending
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Pending"
+msgstr "Очікують"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_form
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_reschedule_attachment
+msgid "Reschedule"
+msgstr "Перепланувати"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__res_id
+msgid "Resource ID"
+msgstr "ID ресурсу"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__smart_search
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__smart_search
+msgid "Smart Search"
+msgstr "Розумний пошук"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__state
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "State"
+msgstr "Стан"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__type
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Type"
+msgstr "Тип"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__url
+msgid "Url"
+msgstr "URL"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__voice_ids
+msgid "Voice"
+msgstr "Голос"

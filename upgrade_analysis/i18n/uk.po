@@ -1,0 +1,245 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__analysis_ids
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_comparison_config_form
+msgid "Analyses"
+msgstr "Аналізи"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__attribute_ids
+msgid "Attribute"
+msgstr "Атрибут"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_record_form
+msgid "Attributes"
+msgstr "Атрибути"
+
+#. module: upgrade_analysis
+#: model:ir.ui.menu,name:upgrade_analysis.menu_upgrade_comparison_config
+msgid "Comparison Configurations"
+msgstr "Конфігурації порівняння"
+
+#. module: upgrade_analysis
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_generate_record_wizard_form
+msgid "Continue"
+msgstr "Продовжити"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_record__mode__create
+msgid "Create"
+msgstr "Створити"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__create_uid
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__create_uid
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__create_uid
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__create_uid
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__create_uid
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__create_date
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__create_date
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__create_date
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__create_date
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__create_date
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__database
+msgid "Database"
+msgstr "База даних"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__definition
+msgid "Definition"
+msgstr "Визначення"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__display_name
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__display_name
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__display_name
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__display_name
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__display_name
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__domain
+msgid "Domain"
+msgstr "Домен"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_analysis__state__done
+#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_generate_record_wizard__state__done
+#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_install_wizard__state__done
+msgid "Done"
+msgstr "Готово"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__field
+#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_record__type__field
+msgid "Field"
+msgstr "Поле"
+
+#. module: upgrade_analysis
+#: model:ir.actions.act_window,name:upgrade_analysis.action_upgrade_generate_record_wizard
+#: model:ir.ui.menu,name:upgrade_analysis.menu_upgrade_generate_record
+msgid "Generate Records Wizard"
+msgstr "Майстер створення записів"
+
+#. module: upgrade_analysis
+#: model:ir.actions.act_window,name:upgrade_analysis.action_upgrade_install_wizard
+#: model:ir.ui.menu,name:upgrade_analysis.menu_upgrade_install
+msgid "Install Modules Wizard"
+msgstr "Майстер встановлення модулів"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__log
+#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_analysis_form
+msgid "Log"
+msgstr "Журнал"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__mode
+msgid "Mode"
+msgstr "Режим"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__model
+#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_record__type__model
+msgid "Model"
+msgstr "Модель"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__model_type
+msgid "Model Type"
+msgstr "Тип моделі"
+
+#. module: upgrade_analysis
+#: model:ir.model,name:upgrade_analysis.model_ir_module_module
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__module
+msgid "Module"
+msgstr "Модуль"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__module_ids
+msgid "Modules"
+msgstr "Модулі"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__name
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__name
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__password
+msgid "Password"
+msgstr "Пароль"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__port
+msgid "Port"
+msgstr "Порт"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__prefix
+msgid "Prefix"
+msgstr "Префікс"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__record_id
+msgid "Record"
+msgstr "Запис"
+
+#. module: upgrade_analysis
+#: model:ir.ui.menu,name:upgrade_analysis.menu_upgrade_records
+msgid "Records"
+msgstr "Записи"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__server
+msgid "Server"
+msgstr "Сервер"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_ir_module_module__smart_search
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__smart_search
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__smart_search
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__smart_search
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__smart_search
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__smart_search
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__smart_search
+msgid "Smart Search"
+msgstr "Розумний пошук"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__state
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__state
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__state
+msgid "State"
+msgstr "Стан"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__suffix
+msgid "Suffix"
+msgstr "Суфікс"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__type
+msgid "Type"
+msgstr "Тип"
+
+#. module: upgrade_analysis
+#: model:ir.actions.act_window,name:upgrade_analysis.action_upgrade_analysis_tree
+#: model:ir.model,name:upgrade_analysis.model_upgrade_analysis
+#: model:ir.ui.menu,name:upgrade_analysis.menu_upgrade_analysis
+msgid "Upgrade Analyses"
+msgstr "Аналізи оновлення"
+
+#. module: upgrade_analysis
+#: model:ir.ui.menu,name:upgrade_analysis.menu_upgrade
+msgid "Upgrade Analysis"
+msgstr "Аналіз оновлення"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__username
+msgid "Username"
+msgstr "Ім’я користувача"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__value
+msgid "Value"
+msgstr "Значення"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__version
+msgid "Version"
+msgstr "Версія"
+
+#. module: upgrade_analysis
+#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__write_files
+msgid "Write Files"
+msgstr "Записувати файли"

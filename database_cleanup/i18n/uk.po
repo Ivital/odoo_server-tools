@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_create_indexes_line
@@ -63,7 +62,7 @@ msgstr ""
 #: model:ir.actions.server,name:database_cleanup.cleanup_create_indexes_line_action
 #: model_terms:ir.ui.view,arch_db:database_cleanup.cleanup_create_indexes_wizard_view_form
 msgid "Create"
-msgstr ""
+msgstr "Створити"
 
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.cleanup_create_indexes_wizard_view_form
@@ -79,7 +78,7 @@ msgstr ""
 #: model:ir.actions.server,name:database_cleanup.cleanup_create_indexes_wizard_action
 #: model:ir.ui.menu,name:database_cleanup.menu_create_indexes
 msgid "Create missing indexes"
-msgstr ""
+msgstr "Створити відсутні індекси"
 
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.cleanup_create_indexes_line_view_tree
@@ -89,7 +88,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line__purged
 msgid "Created"
-msgstr ""
+msgstr "Створено"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line__create_uid
@@ -134,7 +133,7 @@ msgstr "Дата створення"
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_data__data_id
 msgid "Data entry"
-msgstr ""
+msgstr "Введення даних"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_data__purge_line_ids
@@ -144,7 +143,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_database_cleanup
 msgid "Database cleanup"
-msgstr ""
+msgstr "Очищення бази даних"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line__display_name
@@ -170,7 +169,7 @@ msgstr "Назва для відображення"
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line__field_id
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_field__field_id
 msgid "Field"
-msgstr ""
+msgstr "Поле"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_ir_model_fields
@@ -245,7 +244,7 @@ msgstr "Останнє оновлення"
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_menu__menu_id
 msgid "Menu entry"
-msgstr ""
+msgstr "Пункт меню"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_menu__purge_line_ids
@@ -256,7 +255,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_column__model_id
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_field__model_id
 msgid "Model"
-msgstr ""
+msgstr "Модель"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_ir_model_data
@@ -294,7 +293,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_module__name
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_table__name
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: database_cleanup
 #. odoo-python
@@ -364,7 +363,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_wizard__purge_line_ids
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard__purge_line_ids
 msgid "Purge Line"
-msgstr ""
+msgstr "Рядок очищення"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_column__wizard_id
@@ -375,7 +374,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_module__wizard_id
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_table__wizard_id
 msgid "Purge Wizard"
-msgstr ""
+msgstr "Майстер очищення"
 
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.form_purge_wizard
@@ -426,37 +425,37 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_columns
 msgid "Purge obsolete columns"
-msgstr ""
+msgstr "Очистити застарілі стовпці"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_data
 msgid "Purge obsolete data entries"
-msgstr ""
+msgstr "Очистити застарілі записи даних"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_fields
 msgid "Purge obsolete fields"
-msgstr ""
+msgstr "Очистити застарілі поля"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_menus
 msgid "Purge obsolete menu entries"
-msgstr ""
+msgstr "Очистити застарілі записи меню"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_models
 msgid "Purge obsolete models"
-msgstr ""
+msgstr "Очистити застарілі моделі"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_modules
 msgid "Purge obsolete modules"
-msgstr ""
+msgstr "Очистити застарілі модулі"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_tables
 msgid "Purge obsolete tables"
-msgstr ""
+msgstr "Очистити застарілі таблиці"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard
@@ -514,7 +513,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_module__purged
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_table__purged
 msgid "Purged"
-msgstr ""
+msgstr "Очищено"
 
 #. module: database_cleanup
 #: model:ir.model.fields.selection,name:database_cleanup.selection__cleanup_purge_line_table__table_type__base
@@ -524,7 +523,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model.fields.selection,name:database_cleanup.selection__cleanup_purge_line_table__table_type__view
 msgid "SQL View"
-msgstr ""
+msgstr "SQL-подання"
 
 #. module: database_cleanup
 #: model_terms:ir.ui.view,arch_db:database_cleanup.form_purge_wizard
@@ -560,12 +559,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_ir_model_data__smart_search
 #: model:ir.model.fields,field_description:database_cleanup.field_ir_model_fields__smart_search
 msgid "Smart Search"
-msgstr ""
+msgstr "Розумний пошук"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_table__table_type
 msgid "Table Type"
-msgstr ""
+msgstr "Тип таблиці"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_table__purge_line_ids
@@ -581,7 +580,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line__wizard_id
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line__wizard_id
 msgid "Wizard"
-msgstr ""
+msgstr "Майстер"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

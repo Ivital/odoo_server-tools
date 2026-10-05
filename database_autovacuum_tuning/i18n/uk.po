@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: database_autovacuum_tuning
+#: model_terms:ir.ui.view,arch_db:database_autovacuum_tuning.databaseautovacuum_tuning_view_search
+msgid "Create Date"
+msgstr "Дата створення"
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_database_autovacuum_tuning__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_database_autovacuum_tuning__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: database_autovacuum_tuning
+#: model:ir.actions.server,name:database_autovacuum_tuning.cron_database_autovacuum_tuning_ir_actions_server
+#: model:ir.model,name:database_autovacuum_tuning.model_database_autovacuum_tuning
+#: model:ir.ui.menu,name:database_autovacuum_tuning.menu_model_autovacuum_tuning
+msgid "Database Autovacuum Tuning"
+msgstr "Налаштування Autovacuum бази даних"
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_database_autovacuum_tuning__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_database_autovacuum_tuning__name
+#: model_terms:ir.ui.view,arch_db:database_autovacuum_tuning.databaseautovacuum_tuning_view_search
+msgid "Name"
+msgstr "Назва"
+
+#. module: database_autovacuum_tuning
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_database_autovacuum_tuning__smart_search
+#: model:ir.model.fields,field_description:database_autovacuum_tuning.field_res_config_settings__smart_search
+msgid "Smart Search"
+msgstr "Розумний пошук"
